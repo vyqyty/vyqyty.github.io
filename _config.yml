@@ -1,4 +1,4 @@
-title: Ánh Kevin                       # title
+title: Vyqyty                       # title
 
 tagline: Developer notes  # sub-title
 
@@ -6,28 +6,28 @@ description: >-                        # used by seo meta and the atom feed
   A blog or notebook for the developer in my experience
 
 # Domain
-url: 'https://anhkevin.github.io'
+url: 'https://vyqyty.github.io'
 
-author: anhkevin                  # change to your full name
+author: vyqyty                  # change to your full name
 
-avatar: /assets/img/main/anhkevin_logo.png   # support internet resources
+avatar: /assets/img/main/vyqyty_logo.png   # support internet resources
 
 github:
-  username: anhkevin             # change to your github username
+  username: vyqyty             # change to your github username
 
 twitter:
-  username: anhkevin            # change to your twitter username
+  username: vyqyty            # change to your twitter username
 
 facebook:
-  username: anhkevin001
+  username: vyqyty001
 
 social:
-  name: Ánh Kevin                  # it will shows as the copyright owner in Footer
-  email: anhkevin.ht@gmail.com             # change to your email address
+  name: Vyqyty                  # it will shows as the copyright owner in Footer
+  email: vyqyty@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
     # - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/anhkevin       # change to your github homepage
+    - https://github.com/vyqyty       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
