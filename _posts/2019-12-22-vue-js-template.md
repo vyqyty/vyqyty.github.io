@@ -12,7 +12,7 @@ categories: [JavaScript]
 tags: [Vue]
 ---
 Vue.js sử dụng một cú pháp template dựa trên HTML. Tất cả các template của Vue đều là code HTML hợp lệ và có thể được parse bởi các trình duyệt và parser chuẩn. Ngoài ra Vue.js cung cấp hai thứ mạnh mẽ: nội suy và directive.  
-**Note:** _muốn biết directive là gì thì xem [ở đây](https://anhkevin.github.io/vue-js-directive-tuy-bien/) còn nội suy là gì thì xem tiếp bài dưới sẽ rõ_.
+**Note:** _muốn biết directive là gì thì xem [ở đây](https://vyqyty.github.io/vue-js-directive-tuy-bien/) còn nội suy là gì thì xem tiếp bài dưới sẽ rõ_.
 
 &#8211; HTML hợp lệ
 

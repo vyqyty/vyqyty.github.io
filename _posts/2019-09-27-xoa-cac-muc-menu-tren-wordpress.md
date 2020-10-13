@@ -16,7 +16,7 @@ tags: [Wordpress]
 &#8211; &#8230;.. có hàng tá lý do, nếu bạn muốn ẩn menu trên trang quản lý wordpress  
 Bạn có thể tham khảo ví dụ ẩn menu &#8220;Comments&#8221;  dưới đây:
 
-<img class="size-medium wp-image-36 aligncenter" src="https://anhkevin.github.io/assets/img/uploads/2019/09/hide_menu_comments_imeshare-154x300.png" alt="" width="154" height="300" srcset="https://anhkevin.github.io/assets/img/uploads/2019/09/hide_menu_comments_imeshare-154x300.png 154w, https://anhkevin.github.io/assets/img/uploads/2019/09/hide_menu_comments_imeshare-77x150.png 77w, https://anhkevin.github.io/assets/img/uploads/2019/09/hide_menu_comments_imeshare.png 162w" sizes="(max-width: 154px) 100vw, 154px" /> **&#8211; Ẩn menu &#8220;Comments&#8221; trên trang Admin:**
+<img class="size-medium wp-image-36 aligncenter" src="https://vyqyty.github.io/assets/img/uploads/2019/09/hide_menu_comments_imeshare-154x300.png" alt="" width="154" height="300" srcset="https://vyqyty.github.io/assets/img/uploads/2019/09/hide_menu_comments_imeshare-154x300.png 154w, https://vyqyty.github.io/assets/img/uploads/2019/09/hide_menu_comments_imeshare-77x150.png 77w, https://vyqyty.github.io/assets/img/uploads/2019/09/hide_menu_comments_imeshare.png 162w" sizes="(max-width: 154px) 100vw, 154px" /> **&#8211; Ẩn menu &#8220;Comments&#8221; trên trang Admin:**
 
 ```
 &lt;?php 
