@@ -34,7 +34,7 @@ Khi một **widget** thay đổi trạng thái, chẳng hạn như do người d
 
 **Ví dụ cơ bản về Widget:**
 
-[<img class="aligncenter wp-image-548 size-full" src="https://anhkevin.github.io/assets/img/uploads/2019/11/flutter-widget-base-ime-share-blog.png" alt="" width="797" height="611" srcset="https://anhkevin.github.io/assets/img/uploads/2019/11/flutter-widget-base-ime-share-blog.png 797w, https://anhkevin.github.io/assets/img/uploads/2019/11/flutter-widget-base-ime-share-blog-300x230.png 300w, https://anhkevin.github.io/assets/img/uploads/2019/11/flutter-widget-base-ime-share-blog-768x589.png 768w, https://anhkevin.github.io/assets/img/uploads/2019/11/flutter-widget-base-ime-share-blog-150x115.png 150w" sizes="(max-width: 797px) 100vw, 797px" />](https://anhkevin.github.io/assets/img/uploads/2019/11/flutter-widget-base-ime-share-blog.png)
+[<img class="aligncenter wp-image-548 size-full" src="https://vyqyty.github.io/assets/img/uploads/2019/11/flutter-widget-base-ime-share-blog.png" alt="" width="797" height="611" srcset="https://vyqyty.github.io/assets/img/uploads/2019/11/flutter-widget-base-ime-share-blog.png 797w, https://vyqyty.github.io/assets/img/uploads/2019/11/flutter-widget-base-ime-share-blog-300x230.png 300w, https://vyqyty.github.io/assets/img/uploads/2019/11/flutter-widget-base-ime-share-blog-768x589.png 768w, https://vyqyty.github.io/assets/img/uploads/2019/11/flutter-widget-base-ime-share-blog-150x115.png 150w" sizes="(max-width: 797px) 100vw, 797px" />](https://vyqyty.github.io/assets/img/uploads/2019/11/flutter-widget-base-ime-share-blog.png)
 
 File: main.dart
 
@@ -65,7 +65,7 @@ class MyApp extends StatelessWidget{
                   ),
 
                   new Image.network(
-                    'https://anhkevin.github.io/assets/img/main/logo-anhkevin.png',
+                    'https://vyqyty.github.io/assets/img/main/logo-vyqyty.png',
                     fit:BoxFit.fill,
                   ),
                   new Row(

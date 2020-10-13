@@ -4,7 +4,7 @@ layout: compress
 
 self.importScripts('{{ "/assets/js/data/cache-list.js" | relative_url }}');
 
-var cacheName = 'anhkevin-{{ "now" | date: "%Y%m%d.%H%M" }}';
+var cacheName = 'vyqyty-{{ "now" | date: "%Y%m%d.%H%M" }}';
 
 
 function isExcluded(url) {

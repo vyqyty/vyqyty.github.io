@@ -59,7 +59,7 @@ class MyApp extends StatelessWidget
 ```
 
 => Mỗi thành phần của Flutter có thể là một StatelessWidget hoặc một StatefulWidget. StatefulWidget có một đối tượng State liên kết với nó, cho phép nó không chỉ lưu trữ dữ liệu, mà còn để phản ứng với những thay đổi trong dữ liệu. StatelessWidget là một đối tượng đơn giản, không được thiết kế để lưu trữ cố định bất kỳ dữ liệu nào.  
-<span style="color: #999999;"><em>Chi tiết về StatelessWidget và StatefulWidget xem thêm</em></span> <a style="color: red;" href="https://anhkevin.github.io/statelesswidget-va-statefulwidget-trong-flutter-la-gi/"><span style="color: #993300;">tại đây</span></a>.
+<span style="color: #999999;"><em>Chi tiết về StatelessWidget và StatefulWidget xem thêm</em></span> <a style="color: red;" href="https://vyqyty.github.io/statelesswidget-va-statefulwidget-trong-flutter-la-gi/"><span style="color: #993300;">tại đây</span></a>.
 
 ```
 @override
@@ -115,4 +115,4 @@ body: Center(
 => Bên dưới app bar hiển thị 1 body. Body ở đây ta thiết lập ví trị center và đặt một text ở thằng child
 
 <span style="font-size: 14pt;"><strong>Kết quả khi build đoạn code trên:</strong></span>  
-[<img class="aligncenter wp-image-521 size-full" src="https://anhkevin.github.io/assets/img/uploads/2019/11/flutter-run-hello-work-share-blog.png" alt="" width="689" height="415" srcset="https://anhkevin.github.io/assets/img/uploads/2019/11/flutter-run-hello-work-share-blog.png 689w, https://anhkevin.github.io/assets/img/uploads/2019/11/flutter-run-hello-work-share-blog-300x181.png 300w, https://anhkevin.github.io/assets/img/uploads/2019/11/flutter-run-hello-work-share-blog-150x90.png 150w" sizes="(max-width: 689px) 100vw, 689px" />](https://anhkevin.github.io/assets/img/uploads/2019/11/flutter-run-hello-work-share-blog.png)
+[<img class="aligncenter wp-image-521 size-full" src="https://vyqyty.github.io/assets/img/uploads/2019/11/flutter-run-hello-work-share-blog.png" alt="" width="689" height="415" srcset="https://vyqyty.github.io/assets/img/uploads/2019/11/flutter-run-hello-work-share-blog.png 689w, https://vyqyty.github.io/assets/img/uploads/2019/11/flutter-run-hello-work-share-blog-300x181.png 300w, https://vyqyty.github.io/assets/img/uploads/2019/11/flutter-run-hello-work-share-blog-150x90.png 150w" sizes="(max-width: 689px) 100vw, 689px" />](https://vyqyty.github.io/assets/img/uploads/2019/11/flutter-run-hello-work-share-blog.png)
