@@ -1,6 +1,6 @@
 ---
 title: Tạo blog với github
-date: 2020-08-10
+date: 2020-10-14
 categories: [Blog]
 tags: [Other]
 math: true
