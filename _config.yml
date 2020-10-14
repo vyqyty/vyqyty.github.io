@@ -32,7 +32,7 @@ social:
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-google_site_verification: VFwsFln5L0OvdhrurvM387vBBdo8FI-l10NX4A-4rt8 # change to your verification string
+google_site_verification: google2dd4d380b06cb216.html # change to your verification string
 
 #--------------------------
 
@@ -45,7 +45,7 @@ baseurl: ''
 timezone: Asia/Ho_Chi_Minh
 
 google_analytics:
-  id: 'UA-148797549-3'          # Fill with your Google Analytics ID
+  id: 'UA-180534226-1'          # Fill with your Google Analytics ID
   pv:
     # The Google Analytics pageviews switch.
     # DO NOT enable it unless you know how to deploy the Google Analytics superProxy.
