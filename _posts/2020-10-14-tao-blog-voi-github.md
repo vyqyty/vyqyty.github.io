@@ -95,3 +95,14 @@ Một số mã YAML mà theme Beautiful Jekyll hỗ trợ:
 |---|---|
 |title|Tiêu đề trang / bài viết|
 |subtitle|Tiêu đề phụ (hiện dưới tiêu đề chính)|
+|bigimg|Nhúng ảnh to đầu trang / bài viết. Bạn có thể đưa link một ảnh hoặc một danh sách|
+|comments|Để thêm chức năng comment (sử dụng disqus) bạn có thể dùng comments: true|
+|show-avatar|Ẩn/Hiện hình avartar trong trang / bài viết bất kì|
+|share-img|Cung cấp link tới ảnh bạn muốn hiện khi bài viết được share trên Facebook, Twitter.|
+|social-share|Bật/Tắt hàng nút share của các bài viết|
+|layout|	Cấu trúc trang. Bạn có thể sử dụng page cho trang, post cho bài viết.|
+|js|Danh sách các file js local (trong cùng repository Github) (vd. /js/mypage.js)|
+|ext-js|Danh sách các file js nhúng từ ngoài (vd. //cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.2/underscore-min.js)|
+|css|Danh sách các file css local (trong cùng repository Github)|
+|ex-css|Danh sách các file css nhúng từ ngoài|
+|googlefonts|Danh sách Google Fonts được sử dụng (vd. ["Monoton", "Lobster"])|
