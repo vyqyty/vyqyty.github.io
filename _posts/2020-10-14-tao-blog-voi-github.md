@@ -117,3 +117,5 @@ Trước khi kết thúc Level 1, tôi muốn chia sẻ một vài link để c�
 * Github Pages: https://pages.github.com/
 * Một trang hướng dấn sd Jekyll trên Github bằng tiếng Việt: http://daynhauhoc.com/t/lam-blog-bang-jekyll-su-dung-host-cua-github-level-sieu-co-ban/7030
 * Blog có khá nhiều bài viết hay về Jekyll: https://blog.webjeda.com/
+
+Bài viết được lấy từ Blog https://aicurious.io/posts/xay-dung-website-voi-jekyll-lv2/
