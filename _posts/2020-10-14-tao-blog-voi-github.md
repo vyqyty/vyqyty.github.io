@@ -53,13 +53,13 @@ Mô tả các bước của tôi khá tổng quát, có thể các bạn chưa h
 Bạn vào trang Github chứa mã nguồn Beautiful Jekyll mình vừa Fork về sẽ thấy một loạt thư mục, tập tin với chức năng khác nhau bạn cần nắm để từng bước làm chủ website của mình.
 
 * Một số file ở thư mục gốc cần chú ý:
- * _config.yml : File cấu hình của Jekyll. Bạn cần quẩy file này tưng bừng lên để nắm được cách tùy chỉnh trang Jekyll của mình.
- * index.html : Đây là mã nguồn của trang chủ. Bên trong ngoài mã HTML còn có YAML, Liquid templating.
- * aboutme.md : trang giới thiệu về bản thân bạn trên website. Tôi nghĩ bạn nên bắt đầu chỉnh sửa file này trước.
+    * _config.yml : File cấu hình của Jekyll. Bạn cần quẩy file này tưng bừng lên để nắm được cách tùy chỉnh trang Jekyll của mình.
+    * index.html : Đây là mã nguồn của trang chủ. Bên trong ngoài mã HTML còn có YAML, Liquid templating.
+    * aboutme.md : trang giới thiệu về bản thân bạn trên website. Tôi nghĩ bạn nên bắt đầu chỉnh sửa file này trước.
 * Các thư mục cần chú ý cho người mới:
- * _posts : chứa các bài viết trên trang của bạn.
- * _layouts : các cấu trúc trang sửa dụng trong các trang, các bài viết trên blog của bạn.
- * css, js : chứa các tập tin css, js tùy biến giao diện và làm website của bạn trở nên sinh động hơn.
+    * _posts : chứa các bài viết trên trang của bạn.
+    * _layouts : các cấu trúc trang sửa dụng trong các trang, các bài viết trên blog của bạn.
+    * css, js : chứa các tập tin css, js tùy biến giao diện và làm website của bạn trở nên sinh động hơn.
 
 ### Cách viết một bài viết (xây dựng một trang) trong Jekyll
 
