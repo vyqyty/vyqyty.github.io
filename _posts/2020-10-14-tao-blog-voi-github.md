@@ -68,3 +68,9 @@ Bạn có thể tạo trang, viết blog bằng Markdown, HTML, các mã Liquid 
 * Tên bài viết nên đặt theo kiểu yyyy-mm-dd-ten-bai-viet.md. ví dụ : 2016-09-13-xay-dung-website-voi-jekyll.md.
 
 * Đầu mỗi file bài viết (trang) sẽ có các mã YAML chứa thông tin bài viết (trang) đó. Mã này được viết giữa hai dòng chứa ba gạch nối (-).
+
+```
+1---
+2<mã YAML>
+3---
+```
