@@ -28,7 +28,7 @@ Trước tiên chúng ta hãy tìm một theme (giao diện) cơ bản để b�
 
 ### Bắt đầu với theme Beautiful Jekyll nào.
 
-* Mang Beautiful Jekyll về làm trang web của bạn
+Mang Beautiful Jekyll về làm trang web của bạn
 
 * Đăng nhập Github.
 
