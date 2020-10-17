@@ -91,7 +91,7 @@ Ví dụ mã YAML của bài viết này:
 ```
 Một số mã YAML mà theme Beautiful Jekyll hỗ trợ:
 
-| Parameter   |      Mô tả      |
-|----------|:-------------|
-|title	|Tiêu đề trang / bài viết|
-|subtitle|	Tiêu đề phụ (hiện dưới tiêu đề chính)|
+|Parameter|Mô tả|
+|---|---|
+|title|Tiêu đề trang / bài viết|
+|subtitle|Tiêu đề phụ (hiện dưới tiêu đề chính)|
