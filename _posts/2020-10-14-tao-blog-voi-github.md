@@ -43,6 +43,6 @@ Mang Beautiful Jekyll về làm trang web của bạn
 * Sau khi bạn chỉnh sửa xong thiết lập về đường dẫn (phần url trong file _config.yml), hãy truy cập <username>.github.io để xem trang web của bạn đã tạo thành công chưa.
  
 Mô tả các bước của tôi khá tổng quát, có thể các bạn chưa hình dung được. Và thêm nữa, trăm nghe không bằng một thấy, trăm đọc không bằng xem thực hành. Tôi xin phép được trích hình ảnh hướng dẫn cài theme Beautiful Jekyll của tác giả Dean Attali để các bạn hình dung được:
-![alt](https://aicurious.io/posts/xay-dung-website-voi-jekyll/install-steps.gif))
+![alt](https://aicurious.io/posts/xay-dung-website-voi-jekyll/install-steps.gif)
 
 **Kinh nghiệm**: Nếu website của bạn build bị lỗi ở chỗ nào đó thì Github sẽ gửi thông báo về email của bạn. Hãy mở nó lên và kiểm tra xem có vấn đề gì xảy ra nhé. Nếu lỗi nằm ở file cấu hình _config.yml (được viết bằng ngôn ngữ YAML) thì bạn hãy sử dụng công cụ tại http://codebeautify.org/yaml-validator - Copy toàn bộ nội dung file _config.yml vào đó và kiểm tra lỗi nhé.
