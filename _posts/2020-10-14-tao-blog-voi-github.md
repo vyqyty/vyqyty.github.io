@@ -106,3 +106,14 @@ Một số mã YAML mà theme Beautiful Jekyll hỗ trợ:
 |css|Danh sách các file css local (trong cùng repository Github)|
 |ex-css|Danh sách các file css nhúng từ ngoài|
 |googlefonts|Danh sách Google Fonts được sử dụng (vd. ["Monoton", "Lobster"])|
+
+Sau khi Fork cái theme Beautiful Jekyll về, cấu hình một chút. Hãy sửa nội dung các file index.html, aboutme.md, bạn có thể xóa hết các file trong thư mục _posts và bắt đầu viết bài. Tuy nhiên với người mới tôi nghĩ là các bạn nên đọc qua phần YAML của mỗi bài viết có sẵn trong _posts để hiểu cách viết và copy sang chỗ nào đó nếu bạn muốn tận dụng làm luôn cấu trúc YAML cho các bài viết tiếp theo.
+
+Trên đây là hướng dẫn hết sức cơ bản về việc sử dụng Jekyll và theme Beautiful Jekyll để tạo website. Việt Anh còn khá nhiều thủ thuật và kinh nghiệm muốn chia sẻ. Hẹn gặp lại các bạn trong Level 2 - Level nâng cao nhé.
+
+Trước khi kết thúc Level 1, tôi muốn chia sẻ một vài link để các bạn có thể tìm hiểu thêm về Jekyll:
+
+* Trang chủ Jekyll: https://jekyllrb.com/
+* Github Pages: https://pages.github.com/
+* Một trang hướng dấn sd Jekyll trên Github bằng tiếng Việt: http://daynhauhoc.com/t/lam-blog-bang-jekyll-su-dung-host-cua-github-level-sieu-co-ban/7030
+* Blog có khá nhiều bài viết hay về Jekyll: https://blog.webjeda.com/
