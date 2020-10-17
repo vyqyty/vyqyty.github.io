@@ -18,3 +18,28 @@ Github là dịch vụ lưu trữ mà nguồn quen thuộc với các bạn lậ
 ```
 Level cơ bản sử dụng Github Pages để lưu trữ website và theme Beautiful Jekyll để tạo website cá nhân với Jekyll.
 ```
+
+Trước tiên chúng ta hãy tìm một theme (giao diện) cơ bản để bắt đầu với Website nhé. Có rất nhiều theme tôi thấy rất ok tại jekyllthemes.org hoặc themes.jekyllrc.org. Tuy nhiên với Level cơ bản sử dụng Github Pages, chúng ta sẽ bắt đầu với một theme đơn giản, nhưng cá nhân tôi thấy là rất tốt để tạo một website cá nhân : Beautiful Jekyll của Dean Attali.
+
+**Fun fact:** Website hiện tại của Việt Anh sử dụng theme này.
+
+* Để sử dụng theme này với Github Pages, trước tiên bạn cần đăng kí một tài khoản Github. Github thì khá quen thuộc với lập trình viên rồi. Bạn nên lập luôn một cái để sử dụng cho nhiều mục đích khác sau này. Lưu ý là Username Github của bạn sẽ quyết định địa chỉ website cá nhân được lưu trữ trên Github. Ví dụ Username của Việt Anh là vietanhdev.com thì tên miền mặc định cho website được Github cấp là vietanhdev.github.io.
+* Tiếp theo bạn nên làm quen với ngôn ngữ sử dụng chủ yếu để viết nội dung cho Jekyll Website là Markdown. Ngôn ngữ này cũng được sử dụng khá phổ biến trong Github để viết các file README.Md - giới thiệu chung cho mỗi dự án nguồn mở trên Github. Bạn có thể học Markdown tại www.markdowntutorial.com (tiếng Anh) hoặc Hướng dẫn sử dụng Markdown tại đây.
+
+### Bắt đầu với theme Beautiful Jekyll nào.
+
+* Mang Beautiful Jekyll về làm trang web của bạn
+
+* Đăng nhập Github.
+
+* Truy cập trang mã nguồn Beautiful Jekyll trên Github: https://github.com/daattali/beautiful-jekyll.
+
+* Fork (tạo một bản sao) mã nguồn Beautifull Jekyll về tài khoản Github của mình bằng cách ấn nút Fork ở góc trên bên phải của trang mã nguồn.
+
+* Đổi tên repository vừa Fork thành dạng <username>.github.io , trong đó <username> là tên đăng nhập Github của bạn.
+
+* Chỉnh sửa file _config.yml để tạo các thiết lập ban đầu cho website của bạn. Mở file đó lên thì các dòng có # ở đầu là các dòng comment hướng dẫn bạn chỉnh sửa file cấu hình đó. Sau khi sửa xong các file ở Github, bạn ấn Commit changes để lưu lại thay đổi. Đối với website chạy bằng Jekyll thì mỗi lần bạn sửa một file nào đấy là Github sẽ tự động dịch lại toàn bộ mã nguồn website của bạn sang định dạng khả dụng cho một trang web.
+
+* Sau khi bạn chỉnh sửa xong thiết lập về đường dẫn (phần url trong file _config.yml), hãy truy cập <username>.github.io để xem trang web của bạn đã tạo thành công chưa.
+ 
+Mô tả các bước của tôi khá tổng quát, có thể các bạn chưa hình dung được. Và thêm nữa, trăm nghe không bằng một thấy, trăm đọc không bằng xem thực hành. Tôi xin phép được trích hình ảnh hướng dẫn cài theme Beautiful Jekyll của tác giả Dean Attali để các bạn hình dung được:
