@@ -70,7 +70,22 @@ Bạn có thể tạo trang, viết blog bằng Markdown, HTML, các mã Liquid 
 * Đầu mỗi file bài viết (trang) sẽ có các mã YAML chứa thông tin bài viết (trang) đó. Mã này được viết giữa hai dòng chứa ba gạch nối (-).
 
 ```
-1---
-2<mã YAML>
-3---
+1 ---
+2 <mã YAML>
+3 ---
+```
+Ví dụ mã YAML của bài viết này:
+
+```
+1. ---
+2. categories: ["Others"]
+3. lang: "vi"
+4. description: ""
+5. title:  "Kinh nghiệm tạo website cá nhân với Jekyll"
+6. subtitle: "Một số kinh nghiệm tôi thu được sau khi chuyển website cá nhân từ Wordpress sang Jekyll"
+7. date:   2016-09-16
+8. category: Web Development
+9. tags: [Jekyll, website]
+10. bigimg: "jekyllhomepage.png"
+11. ---
 ```
