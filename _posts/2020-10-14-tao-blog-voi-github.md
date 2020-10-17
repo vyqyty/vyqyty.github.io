@@ -14,3 +14,7 @@ Github là dịch vụ lưu trữ mà nguồn quen thuộc với các bạn lậ
 * Khá quen thuộc với các lập trình viên. Nếu bạn là một lập trình viên thì việc commit code lên Github là một việc khá quen thuộc rồi. Làm website, viết blog theo cách đó chắc chắn sẽ làm bạn thấy thoải mái.
 
 ## OK. Tiến hành làm website bằng Jekyll nào
+
+```
+Level cơ bản sử dụng Github Pages để lưu trữ website và theme Beautiful Jekyll để tạo website cá nhân với Jekyll.
+```
