@@ -47,3 +47,24 @@ Mô tả các bước của tôi khá tổng quát, có thể các bạn chưa h
 ![alt](https://aicurious.io/posts/xay-dung-website-voi-jekyll/install-steps.gif)
 
 **Kinh nghiệm**: Nếu website của bạn build bị lỗi ở chỗ nào đó thì Github sẽ gửi thông báo về email của bạn. Hãy mở nó lên và kiểm tra xem có vấn đề gì xảy ra nhé. Nếu lỗi nằm ở file cấu hình _config.yml (được viết bằng ngôn ngữ YAML) thì bạn hãy sử dụng công cụ tại http://codebeautify.org/yaml-validator - Copy toàn bộ nội dung file _config.yml vào đó và kiểm tra lỗi nhé.
+
+### Cấu trúc thư mục Jekyll
+
+Bạn vào trang Github chứa mã nguồn Beautiful Jekyll mình vừa Fork về sẽ thấy một loạt thư mục, tập tin với chức năng khác nhau bạn cần nắm để từng bước làm chủ website của mình.
+
+* Một số file ở thư mục gốc cần chú ý:
+ * _config.yml : File cấu hình của Jekyll. Bạn cần quẩy file này tưng bừng lên để nắm được cách tùy chỉnh trang Jekyll của mình.
+ * index.html : Đây là mã nguồn của trang chủ. Bên trong ngoài mã HTML còn có YAML, Liquid templating.
+ * aboutme.md : trang giới thiệu về bản thân bạn trên website. Tôi nghĩ bạn nên bắt đầu chỉnh sửa file này trước.
+* Các thư mục cần chú ý cho người mới:
+ * _posts : chứa các bài viết trên trang của bạn.
+ * _layouts : các cấu trúc trang sửa dụng trong các trang, các bài viết trên blog của bạn.
+ * css, js : chứa các tập tin css, js tùy biến giao diện và làm website của bạn trở nên sinh động hơn.
+
+### Cách viết một bài viết (xây dựng một trang) trong Jekyll
+
+Bạn có thể tạo trang, viết blog bằng Markdown, HTML, các mã Liquid templating, tuy nhiên có vài điểm cần lưu ý về cấu trúc:
+
+* Tên bài viết nên đặt theo kiểu yyyy-mm-dd-ten-bai-viet.md. ví dụ : 2016-09-13-xay-dung-website-voi-jekyll.md.
+
+* Đầu mỗi file bài viết (trang) sẽ có các mã YAML chứa thông tin bài viết (trang) đó. Mã này được viết giữa hai dòng chứa ba gạch nối (-).
