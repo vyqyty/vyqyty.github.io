@@ -5,7 +5,7 @@ categories: [Django]
 tags: [Other]
 math: true
 ---
-Django là một web framework miễn phí mã nguồn mở được viết bằng Python. Trong bài viết này mình dựng server Dev trên Ubuntu 20.04. đã có sắn Python3.8
+Django là một web framework miễn phí mã nguồn mở được viết bằng Python. Trong bài viết này mình dựng server Dev trên Ubuntu 20.04. đã có sẵn Python3.8
 ```
 python3 --version
 ```
