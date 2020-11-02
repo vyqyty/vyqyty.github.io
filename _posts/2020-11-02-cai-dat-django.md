@@ -14,3 +14,11 @@ python3 --version
 Output
 Python 3.8.5
 ```
+2. Cài đặt Pip
+```
+sudo apt install python3-pip
+```
+3. Cài Virtual Environment
+```
+sudo apt install python3-venv
+```
