@@ -7,6 +7,9 @@ math: true
 ---
 Django là một web framework miễn phí mã nguồn mở được viết bằng Python. Trong bài viết này mình dựng server Dev trên Ubuntu 20.04. đã có sãn Python3.8
 ```
+python3 --version
+```
+```
 Output
 Python 3.8.5
 ```
