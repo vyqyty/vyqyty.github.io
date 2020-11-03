@@ -3,11 +3,10 @@
 #  github
 #  © 2020 Coding
 #  MIT Licensed
-
 -
-    type: Facebook
-    icon: "fab fa-facebook-square"
-    link: "https://www.facebook.com/sharer/sharer.php?title=TITLE&u=URL"
+  type: facebook
+  icon: "fab fa-facebook-square"
+  url: "https://www.facebook.com/sharer/sharer.php?title=TITLE&u=URL"
 
 #-
 #  type: github
