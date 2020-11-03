@@ -5,8 +5,9 @@
 #  MIT Licensed
 
 -
-  type: github
-  icon: 'fa fa-facebook'
+    type: Facebook
+    icon: "fab fa-facebook-square"
+    link: "https://www.facebook.com/sharer/sharer.php?title=TITLE&u=URL"
 
 #-
 #  type: github
