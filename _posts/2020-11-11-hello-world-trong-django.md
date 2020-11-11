@@ -41,14 +41,16 @@ Với nội dung:
 ```
 <h1>Hello world<h1>
 ```
+
 Sau đó khai báo đường dẫn folder chứa template vừa mới khai báo bằng cách cập nhật file settings.py. Tìm đến phần TEMPLATES:
+
 Sửa
 ```
 ...
  'DIRS': [],
 ...
 ```
-thành
+Thành
 ```
 ...
 'DIRS': [
@@ -56,6 +58,7 @@ thành
        ],
 ...
 ```
+
 ## Bước 2: Tạo view để render template
 ```
 vim /home/views.py
@@ -71,6 +74,7 @@ def index(request):
        'home/index.html'
    )
 ```
+
 ## Bước 3: Config url cho view mới:
 Cập nhật file urls.py trong home:
 ```
