@@ -56,3 +56,43 @@ thành
        ],
 ...
 ```
+## Bước 2: Tạo view để render template
+```
+vim /home/views.py
+```
+với nội dung
+```
+from django.shortcuts import render
+
+
+def index(request):
+   return render(
+       request,
+       'home/index.html'
+   )
+```
+## Bước 3: Config url cho view mới:
+Cập nhật file urls.py trong home:
+```
+rom django.conf.urls import patterns, url
+
+urlpatterns = patterns(
+   '',
+   url(
+       r'^$',
+       'home.views.index',
+       name='index'),
+)
+```
+Khai báo file urls.py của app home vào home/urls.py:
+'''
+from django.conf.urls import patterns, include, url
+
+
+urlpatterns = patterns(
+   '',
+   url(
+       r'^',
+       include('home.urls', namespace='home')),
+)
+'''
