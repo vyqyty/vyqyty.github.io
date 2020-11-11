@@ -93,7 +93,8 @@ urlpatterns = patterns(
 )
 ```
 Khai báo file urls.py của app home vào home/urls.py:
-'''
+
+```
 from django.conf.urls import patterns, include, url
 
 
@@ -103,4 +104,4 @@ urlpatterns = patterns(
        r'^',
        include('home.urls', namespace='home')),
 )
-'''
+```
