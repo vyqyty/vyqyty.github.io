@@ -28,16 +28,20 @@ Template sẽ nằm trong folder template
 mkdir templates
 ```
 # Tạo 1 trang "hello world" trong Django
+
 Để tạo 1 trang hello world trong django chúng ta cần các bước sau:
 1. Template html chứa nội dung "hello world".
 2. View dùng để render template
 3. Url cho view
+
 ## Bước 1: Tạo template:
 Vào thư mục gốc của dự án, sau đó:
+
 ```
 vim home/templates/home/index.html
 ```
 Với nội dung:
+
 ```
 <h1>Hello world<h1>
 ```
