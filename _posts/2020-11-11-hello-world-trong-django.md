@@ -43,7 +43,7 @@ vim home/templates/home/index.html
 Với nội dung:
 
 ```
-<h1>Hello world<h1>
+Hello world
 ```
 
 Sau đó khai báo đường dẫn folder chứa template vừa mới khai báo bằng cách cập nhật file settings.py. Tìm đến phần TEMPLATES:
