@@ -5,3 +5,25 @@ categories: [Django]
 tags: [Other]
 math: true
 ---
+Để tạo 1 app tên là home trong django ta chạy như sau:
+python3.8 manage.py startapp home
+Cấu trúc của app vừa tạo sẽ như thế này:
+```
+home/
+├── admin.py
+├── __init__.py
+├── migrations
+│   └── __init__.py
+├── models.py
+├── tests.py
+└── views.py
+```
+Trong cấu trúc trên ta chỉ quan tâm nhiều nhất là models.py và views.py. Ngoài ra chúng ta cần tạo thêm 2 đối tượng quan trọng nữa là url config cho app và template.
+Url config cho app sẽ nằm trong file urls.py:
+```
+touch urls.py
+```
+Template sẽ nằm trong folder template
+```
+mkdir templates
+```
