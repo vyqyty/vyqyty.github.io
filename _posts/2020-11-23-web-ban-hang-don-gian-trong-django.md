@@ -5,3 +5,8 @@ categories: [Django]
 tags: [Other]
 math: true
 ---
+1. Tạo project
+Tạo project django_ecom
+```
+django-admin startproject django_ecom
+```
