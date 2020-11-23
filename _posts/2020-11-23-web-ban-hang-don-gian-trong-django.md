@@ -51,3 +51,26 @@ INSTALLED_APPS = [
 ]
 ```
 ## 3. Thiết kế và tạo model
+
+Django hỗ trợ ORM (Object-relational mapping), nói 1 cách dễ hiểu, là 1 class hướng đối tượng sẽ được map thành 1 bảng trong database, 1 object / instance (thực thể của 1 class) sẽ được map thành 1 record (1 dòng) của bảng trong database.
+
+Lợi ích của ORM:
+
+* Tránh viết các câu lệnh truy vấn SQL dài dòng.
+* Code cực kì gọn, đẹp, dễ sử dụng và dễ hiểu.
+
+Ta sẽ thiết kế 1 model đơn giản có:
+
+* Type model gồm có 2 fields:
+   * Name: tên loại sản phẩm.
+   * Active: nếu type không active sẽ không được show ra.
+* Product model bao gồm các thông tin cơ bản:
+   * Type ID: khóa ngoại đến Type (Many2one).
+   * Name: tên sản phẩm.
+   * Price: giá cả.
+   * Quantity: số lượng sản phẩm.
+   * Image: ảnh sản phẩm (1 ảnh).
+   * Description: mô tả sản phẩm (nhiều dòng).
+   
+**ecom/models.py**
+
