@@ -193,3 +193,16 @@ Với đoạn code trên ta cũng đã customize lại ModelAdmin mặc định:
 Mình cùng qua bước tiếp theo để xem thành quả nhé!
 
 ## 4. Vào giao diện Admin xem model vừa tạo
+```
+python manage.py createsuperuser
+
+# tạo tài khoản admin, các bạn có thể điền tùy thích. Lưu ý là thông tin password không được giống / gần giống Username và Email. Nếu không nó sẽ không cho tạo :v.
+Username (leave blank to use 'ubuntu'): admin
+Email address: admin@admin.com
+Password: djangoecom
+Password (again): djangoecom
+```
+Sau đó vào localhost:8000/admin đăng nhập bằng account vừa tạo.
+
+Ố lala, ta có giao diện có thể thêm, sửa, xóa loại và sản phẩm.
+
