@@ -454,3 +454,5 @@ Tổng kết lại, điểm "ngon" của Django:
 * Vô số tài liệu hướng dẫn từ Django.
 * Template khá mạnh, gần giống với ngôn ngữ markdown (rất phổ biến).
 * Django Admin cung cấp sẵn các chức năng thêm, sửa, xóa ở CMS (có thể customize).
+
+nguồn https://minhng.info/tutorials/hoc-django-trong-1-ngay.html
