@@ -440,8 +440,10 @@ urlpatterns = [
 Cuối cùng ta sẽ có giao diện web bán hàng khá chuẩn :D.
 
 **localhost:8000**
-![Alt text](https://vyqyty.github.io/assets/img/uploads/2020/09/django_ecom_4_web_1.png)
-![Alt text](https://vyqyty.github.io/assets/img/uploads/2020/09/django_ecom_5_web_2.png)
+
+![Alt text](https://github.com/vyqyty/vyqyty.github.io/blob/master/assets/img/uploads/2020/09/django_ecom_4_web_1.png)
+
+![Alt text](https://github.com/vyqyty/vyqyty.github.io/blob/master/assets/img/uploads/2020/09/django_ecom_5_web_2.png)
 
 Như vậy chúng ta đã kết thúc 1 ngày học Django viết bằng Python rồi đó. Có vẻ như mọi thứ khá ổn để ta bắt tay vào viết những trang web lớn hơn.
 
