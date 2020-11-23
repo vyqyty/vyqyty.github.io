@@ -413,3 +413,41 @@ Chôm template html có sẵn ở đâu đó (hoặc tự viết :v) rồi nhét
     </<body>
 </html>
 ```
+
+Mình sẽ dựa vào cú pháp Template của Django để viết các file template trên (chỗ lặp các object bằng for ... in ).
+
+**urls.py**
+
+```
+from django.conf.urls import url
+from django.contrib import admin
+from django.conf import settings
+from django.conf.urls.static import static
+
+from ecom import views
+
+urlpatterns = [
+    url(r'^$', views.index, name='index'),
+    url(r'^admin/', admin.site.urls),
+    url(r'^product/(?P<product_id>[0-9]+)/$', views.product, name='product'),
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+```
+
+* from ecom import views: import views.py của app ecom.
+* Đặc tả trang chủ: '/' sẽ gọi hàm index() trong views.
+* Đặc tả trang chi tiết sản phẩm: '/product/product_id' sẽ gọi hàm product() trong views.
+
+Cuối cùng ta sẽ có giao diện web bán hàng khá chuẩn :D.
+
+**localhost:8000**
+
+
+Như vậy chúng ta đã kết thúc 1 ngày học Django viết bằng Python rồi đó. Có vẻ như mọi thứ khá ổn để ta bắt tay vào viết những trang web lớn hơn.
+
+Tổng kết lại, điểm "ngon" của Django:
+
+* ORM.
+* Mô hình MVC phân chia khá rõ ràng.
+* Vô số tài liệu hướng dẫn từ Django.
+* Template khá mạnh, gần giống với ngôn ngữ markdown (rất phổ biến).
+* Django Admin cung cấp sẵn các chức năng thêm, sửa, xóa ở CMS (có thể customize).
