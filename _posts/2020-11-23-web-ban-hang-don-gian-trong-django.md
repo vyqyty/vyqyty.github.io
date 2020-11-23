@@ -242,6 +242,8 @@ def product(request, product_id):
 
 OK, vậy ta tiếp tục tạo 2 template html tương ứng:
 
+* django_ecom/ecom/templates/ecom/type.html
+* django_ecom/ecom/templates/ecom/product.html
 
 ![Alt text](https://vyqyty.github.io/assets/img/uploads/2020/09/django_ecom_3_templates.png)
 
