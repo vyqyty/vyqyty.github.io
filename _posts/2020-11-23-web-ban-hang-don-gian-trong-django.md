@@ -5,7 +5,7 @@ categories: [Django]
 tags: [Other]
 math: true
 ---
-1. Tạo project
+## 1. Tạo project
 Tạo project django_ecom
 ```
 django-admin startproject django_ecom
@@ -14,18 +14,18 @@ django-admin startproject django_ecom
 
 Có 1 số file quan trọng cần chú ý:
 
-* settings.py
+* **settings.py**
 
     * DEBUG: bật / tắt chế độ Debug.
     * ALLOWED_HOSTS: nếu báo lỗi liên quan đến ALLOWED_HOSTS thì thêm địa chỉ vào list này.
     * INSTALLED_APPS: 1 project có thể có nhiều app, còn 1 app có thể thuộc nhiều project. Khi mình thêm 1 app mới thì cần cập nhật danh sách này.
     * DATABASES: đặc tả Database Engine mình muốn dùng: SQLite (mặc định), Postgres, Mysql, …
 
-* urls.py
+* **urls.py**
  
     * Đóng vai trò routing, đặc tả với địa chỉ nào thì sẽ thực thi hàm nào ở backend.
 
-* manage.py
+* **manage.py**
  
     * Đóng vai trò giống như 1 CLI để tạo app, migrate kiến trúc database, …
 
