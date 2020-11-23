@@ -110,3 +110,86 @@ class Product(models.Model):
     def __str__(self):
         return self.name
 ```
+
+Vì mình cho phép người dùng up ảnh sản phẩm và hiển thị ra, do đó phải chỉnh sửa settings 1 chút.
+
+**django_ecom/settings.py**
+
+```
+MEDIA_URL = '/media/'
+MEDIA_ROOT = (
+    os.path.join(BASE_DIR)
+)
+```
+
+Đồng thời ta phải chỉnh lại urls
+
+**django_ecom/urls.py**
+
+```
+from django.conf.urls import url
+from django.contrib import admin
+from django.conf import settings
+from django.conf.urls.static import static
+
+urlpatterns = [
+    url(r'^admin/', admin.site.urls),
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+```
+
+Tiến hành migrate database thôi :v
+
+```
+$ python manage.py makemigrations ecom
+# sau khi chạy sẽ tao ra file: ecom/migrations/0001_initial.py
+# nếu ta chỉnh sửa cấu trúc của database thì lần makemigrations tới sẽ tạo ra file dạng: 0002_....py
+
+$ python manage.py sqlmigrate ecom 0001
+# 0001 chính là phần prefix của file: 0001_initial.py
+# Lần tiếp theo thì ta cần sqlmigrate 0002 (tăng dần)
+
+$ python manage.py migrate
+# apply toàn bộ thay đổi vào web
+
+# Hoặc ta dùng 1 câu lệnh duy nhất:
+$ python manage.py makemigrations <app_name> && python manage.py migrate
+ví dụ:
+$ python manage.py makemigrations ecom && python manage.py migrate
+```
+
+Lưu ý:
+
+* ecom: tên app <=> app_name
+* 0001: version cấu trúc mình muốn migrate (tăng dần)
+**Quan trọng**: ta phải đăng ký các model vừa tạo cho Admin Site biết, như vậy khi ta vào giao diện quản lý sẽ thấy được các model này để thao tác (thêm, sửa, xóa).
+
+**ecom/admin.py**
+```
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals
+
+from django.contrib import admin
+from .models import Type, Product
+
+class TypeModelAdmin(admin.ModelAdmin):
+    list_filter = ('active',)
+    list_display = ('name', 'active', )
+
+class ProductModelAdmin(admin.ModelAdmin):
+    readonly_fields = ('image_tag',)    
+    list_display = ('name', 'price', 'quantity', 'description')
+
+admin.site.register(Type, TypeModelAdmin)
+admin.site.register(Product, ProductModelAdmin)
+```
+
+Với đoạn code trên ta cũng đã customize lại ModelAdmin mặc định:
+
+* Cho phép lọc theo field active trong list view của "Type".
+* Hiển thị 2 cột "name" và "active" của "Type".
+* Hiển thị ảnh từ file ảnh do người dùng upload là readonly.
+* Hiển thị 4 cột "name", "price", "quantity", "description" của "Product"
+
+Mình cùng qua bước tiếp theo để xem thành quả nhé!
+
+## 4. Vào giao diện Admin xem model vừa tạo
