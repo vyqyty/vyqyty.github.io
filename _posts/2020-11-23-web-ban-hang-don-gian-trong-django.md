@@ -10,4 +10,4 @@ Tạo project django_ecom
 ```
 django-admin startproject django_ecom
 ```
-![Alt text](https://vyqyty.github.io/assets/img/uploads/2019/11/flutter-widget-base-ime-share-blog.png)
+![Alt text](https://vyqyty.github.io/assets/img/uploads/2020/09/django_ecom_0_create_project.png)
