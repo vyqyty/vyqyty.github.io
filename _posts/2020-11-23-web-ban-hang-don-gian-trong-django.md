@@ -39,8 +39,10 @@ Tạo app tên ecom
 ```
 python manage.py startapp ecom
 ```
-OK, 1 thư mục ecom vừa mới được tạo ra :D.
+OK, 1 thư mục ecom vừa mới được tạo ra.
+
 ![Alt text](https://vyqyty.github.io/assets/img/uploads/2020/09/django_ecom_1_create_app_ecom.png)
+
 Thêm app vừa tạo vào django_ecom/settings.py
 ```
 INSTALLED_APPS = [
