@@ -30,3 +30,22 @@ Có 1 số file quan trọng cần chú ý:
     * Đóng vai trò giống như 1 CLI để tạo app, migrate kiến trúc database, …
 
 Không cần sửa file nào hết, chạy thử server trên local xem sao bằng 2 lệnh (nhớ cd vào thư mục django_ecom đã nhé):
+```
+$ python manage.py migrate
+$ python manage.py runserver
+```
+## 2. Tạo App
+Tạo app tên ecom
+```
+python manage.py startapp ecom
+```
+OK, 1 thư mục ecom vừa mới được tạo ra :D.
+![Alt text](https://vyqyty.github.io/assets/img/uploads/2020/09/django_ecom_1_create_project.png)
+Thêm app vừa tạo vào django_ecom/settings.py
+```
+INSTALLED_APPS = [
+    'ecom.apps.EcomConfig',
+    #... config còn lại giữa nguyên.
+]
+```
+## 3. Thiết kế và tạo model
