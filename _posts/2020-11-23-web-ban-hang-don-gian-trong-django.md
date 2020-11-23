@@ -206,3 +206,6 @@ Sau đó vào localhost:8000/admin đăng nhập bằng account vừa tạo.
 
 Ố lala, ta có giao diện có thể thêm, sửa, xóa loại và sản phẩm.
 
+![Alt text](https://vyqyty.github.io/assets/img/uploads/2020/09/django_ecom_2_type_model.png)
+
+## 5. Viết giao diện sản phẩm
