@@ -117,27 +117,27 @@ Chôm template html có sẵn ở đâu đó (hoặc tự viết :v) rồi nhét
                 {% else %}
                     <div class="tab-pane fade" id="{{ type.name | slugify }}"> 
                 {% endif %} 
-                        ```
+                        <p>
                         <div class="row post-grid">
                             {% for product in type.product_set.all %}
                                 {% if product.quantity > 0 %}
                                 <div class="col-sm-4">
                                     <div class="row">
                                         <div class="col-xs-12">
-                                            <a href="{% url 'product' product.id %}"><img src="/media/{{ product.image }}" /></a>
+                                            `<a href="{% url 'product' product.id %}"><img src="/media/{{ product.image }}" /></a>`
                                         </div>
                                     </div>
                                     <p>
+                                        <p>
                                         <span><i class="fa fa-dollar" aria-hidden="true"></i>&nbsp; {{product.price}}</span>
                                         &nbsp; &nbsp; 
                                         <span><i class="fa fa-cart-plus" aria-hidden="true"></i>&nbsp; {{product.quantity}}</span>
-                                        <a href="{% url 'product' product.id %}"><h4>{{ product.name }}</h4>        </a>    
+                                        `<a href="{% url 'product' product.id %}"><h4>{{ product.name }}</h4>        </a>`  
                                     </p>
                                 </div>
                                 {% endif %}
                             {% endfor %}
                         </div>
-                        ```
                     </div>        
             {% endfor %}
             </div>
