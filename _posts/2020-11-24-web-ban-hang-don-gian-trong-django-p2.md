@@ -49,4 +49,4 @@ Chôm template html có sẵn ở đâu đó (hoặc tự viết :v) rồi nhét
 
 **type.html**
 
-{@codepen: https://codepen.io/nickmoreton/pen/gbyygq}
+{@github: https://github.com/vyqyty/vyqyty.github.io/blob/master/assets/ecom-django-html-1.md}
