@@ -49,4 +49,4 @@ Chôm template html có sẵn ở đâu đó (hoặc tự viết :v) rồi nhét
 
 **type.html**
 
-{@gist:https://vyqyty.github.io/assets/ecom-django-html-1.html}
+{@github: https://vyqyty.github.io/assets/ecom-django-html-1.html}
