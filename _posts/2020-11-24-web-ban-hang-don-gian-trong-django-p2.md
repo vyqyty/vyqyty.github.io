@@ -116,6 +116,9 @@ Chôm template html có sẵn ở đâu đó (hoặc tự viết :v) rồi nhét
                     <div class="tab-pane fade active in" id="{{ type.name | slugify }}">
                 {% else %}
                     <div class="tab-pane fade" id="{{ type.name | slugify }}">
+                        
+                        
+                        
                 {% endif %}
                         <p>
                         <div class="row post-grid">
