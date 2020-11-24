@@ -126,8 +126,7 @@ Chôm template html có sẵn ở đâu đó (hoặc tự viết :v) rồi nhét
                                             <a href="{% url 'product' product.id %}"><img src="/media/{{ product.image }}" /></a>
                                         </div>
                                     </div>
-                                    <p>
-                                        <p>
+                                    <p>      
                                         <span><i class="fa fa-dollar" aria-hidden="true"></i>&nbsp; {{product.price}}</span>
                                         &nbsp; &nbsp; 
                                         <span><i class="fa fa-cart-plus" aria-hidden="true"></i>&nbsp; {{product.quantity}}</span>
