@@ -49,7 +49,7 @@ Chôm template html có sẵn ở đâu đó (hoặc tự viết :v) rồi nhét
 
 **type.html**
 
-```html\
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -117,6 +117,7 @@ Chôm template html có sẵn ở đâu đó (hoặc tự viết :v) rồi nhét
                 {% else %}
                     <div class="tab-pane fade" id="{{ type.name | slugify }}"> 
                 {% endif %} 
+                        ```
                         <div class="row post-grid">
                             {% for product in type.product_set.all %}
                                 {% if product.quantity > 0 %}
@@ -136,6 +137,7 @@ Chôm template html có sẵn ở đâu đó (hoặc tự viết :v) rồi nhét
                                 {% endif %}
                             {% endfor %}
                         </div>
+                        ```
                     </div>        
             {% endfor %}
             </div>
