@@ -50,7 +50,7 @@ Chôm template html có sẵn ở đâu đó (hoặc tự viết :v) rồi nhét
 **type.html**
 
 
-```
+```html
 <!DOCTYPE html>
 <html lang="vi">
     <head>
