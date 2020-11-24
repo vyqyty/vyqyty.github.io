@@ -73,7 +73,7 @@
                                 <div class="col-sm-4">
                                     <div class="row">
                                         <div class="col-xs-12">
-                                            `<a href="{% url 'product' product.id %}"><img src="/media/{{ product.image }}" /></a>`
+                                            ("{% url 'product' product.id %}"><img src="/media/{{ product.image }}" />)
                                         </div>
                                     </div>
                                     <p>
