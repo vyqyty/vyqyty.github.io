@@ -51,6 +51,7 @@ Chôm template html có sẵn ở đâu đó (hoặc tự viết :v) rồi nhét
 
 [Html1]<https://github.com/vyqyty/vyqyty.github.io/blob/master/assets/ecom-django-html-1.md>
 
+
 **product.html**
 
 [Html2]<https://github.com/vyqyty/vyqyty.github.io/blob/master/assets/ecom-django-html-2.md>
