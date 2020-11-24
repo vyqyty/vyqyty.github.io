@@ -66,11 +66,7 @@
                 {% else %}
                     <div class="tab-pane fade" id="{{ type.name | slugify }}">
                 {% endif %}
-                        <p>
-                        <div class="row post-grid">
-                            
-                        </div>
-                    </div>        
+                          
             {% endfor %}
             </div>
         </div>
