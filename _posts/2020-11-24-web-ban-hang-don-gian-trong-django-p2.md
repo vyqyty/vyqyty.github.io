@@ -49,7 +49,8 @@ Chôm template html có sẵn ở đâu đó (hoặc tự viết :v) rồi nhét
 
 **type.html**
 
-`<!DOCTYPE html>
+`
+```<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -144,4 +145,5 @@ Chôm template html có sẵn ở đâu đó (hoặc tự viết :v) rồi nhét
         </div>
     </<body>
 </html>
+```
 `
