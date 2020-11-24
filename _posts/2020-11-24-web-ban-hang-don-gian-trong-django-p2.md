@@ -49,6 +49,4 @@ Chôm template html có sẵn ở đâu đó (hoặc tự viết :v) rồi nhét
 
 **type.html**
 
-{@gist: https://gist.github.com/JeffreyWay/207e3bfdb5cafff050a1d75dbf755a5c}
-
-
+![Alt text](https://vyqyty.github.io/assets/ecom-django-html-1.html)
