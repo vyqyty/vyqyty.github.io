@@ -115,12 +115,8 @@ Chôm template html có sẵn ở đâu đó (hoặc tự viết :v) rồi nhét
                 {% if forloop.first %}
                     <div class="tab-pane fade active in" id="{{ type.name | slugify }}">
                 {% else %}
-                    <div class="tab-pane fade" id="{{ type.name | slugify }}">
-                        
-                        
-                        
+                    <div class="tab-pane fade" id="{{ type.name | slugify }}"> 
                 {% endif %}
-                        <p>
                         <div class="row post-grid">
                             {% for product in type.product_set.all %}
                                 {% if product.quantity > 0 %}
