@@ -48,9 +48,9 @@ OK, vậy ta tiếp tục tạo 2 template html tương ứng:
 Chôm template html có sẵn ở đâu đó (hoặc tự viết :v) rồi nhét 1 số đoạn code render thông tin sản phẩm (type / product) vào là được.
 
 **type.html**
-```html\
+```html
 <!DOCTYPE html>
-<html lang="vi">
+<'html' lang="vi">
     <head>
         <meta charset="UTF-8">
         <title>Ecom</title>
