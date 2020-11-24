@@ -66,7 +66,6 @@
                 {% else %}
                     <div class="tab-pane fade" id="{{ type.name | slugify }}">
                 {% endif %}
-                        <!--
                         <p>
                         <div class="row post-grid">
                             {% for product in type.product_set.all %}
@@ -74,7 +73,7 @@
                                 <div class="col-sm-4">
                                     <div class="row">
                                         <div class="col-xs-12">
-                                            <a href="{% url 'product' product.id %}"><img src="/media/{{ product.image }}" /></a>
+                                            `<a href="{% url 'product' product.id %}"><img src="/media/{{ product.image }}" /></a>`
                                         </div>
                                     </div>
                                     <p>
@@ -88,7 +87,6 @@
                                 {% endif %}
                             {% endfor %}
                         </div>
-                        -->
                     </div>        
             {% endfor %}
             </div>
