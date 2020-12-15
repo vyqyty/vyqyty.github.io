@@ -37,7 +37,7 @@ hello, world!
 ```
 # 3. Các kiểu dữ liệu phổ biến trong Python
 **Ngôn ngữ lập trình Python** có hỗ trợ cho tất cả các **kiểu dữ liệu cơ bản** và cũng có kiểu dữ liệu kết hợp rất mạnh.
-### 3.1. số nguyên: integers
+### 3.1. Số nguyên: integers
 ```
 print(1 + 2)
 ```
