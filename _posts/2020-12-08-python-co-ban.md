@@ -311,3 +311,132 @@ Khi chạy chương trình, ta có kết quả:
 52
 ```
 Vì cộng chuỗi với chuỗi nên chúng ta có chuỗi 52
+
+## 6. Tạo hàm tùy chỉnh trong Python
+
+Giống như cách gán một giá trị cho một biến, một đoạn logic cũng có thể được liên kết với một tên bằng cách định nghĩa nó là một hàm.
+Ví dụ hàm tùy chỉnh trong Python:
+```
+# Khai báo một hàm tính bình phương
+def square(x):
+    return x * x
+# In ra bình phương của 5
+print(square(5))
+```
+Chạy chương trình, ta nhận được kết quả:
+```
+25
+```
+Trong đó:
+từ khóa def để định nghĩa một hàm
+square là tên hàm (tùy bạn đặt)
+x là tham số của hàm
+Phần thân của hàm được thụt lề (bằng tab). Thụt lề cũng là để cách phân nhóm các câu lệnh Python.
+Các hàm trong Python có thể được sử dụng trong bất kỳ biểu thức nào:
+```
+print(square(2) + square(3))
+print(square(square(3)))
+```
+Chạy chương trình ta có kết quả là:
+```
+13
+81
+```
+Các hàm hiện có cũng có thể được sử dụng để tạo ra các hàm mới.
+```
+# Tạo hàm mới sử dụng hàm hiện có
+def sum_of_squares(x, y):
+    return square(x) + square(y)
+# Tính tổng bình phương của 2 và 3
+print(sum_of_squares(2, 3))
+```
+Chạy chương trình ta có kết quả:
+```
+13
+```
+Các hàm trong Python cũng giống như các giá trị khác, chúng có thể được gán, được chuyển dưới dạng đối số cho các hàm khác.
+Ví dụ gán hàm cho biến:
+```
+# Gán hàm square cho biến f
+f = square
+# Tính bình phương của 4
+f(4)
+```
+Chạy chương trình, ta có kết quả:
+```
+16
+```
+Ví dụ truyền hàm dưới dạng tham số:
+```
+# Ví dụ truyền hàm dưới dạng tham số
+def fxy(f, x, y):
+    return f(x) + f(y)
+# Sử dụng thử hàm vừa tạo
+print(fxy(square, 2, 3))
+```
+Chạy chương trình, ta có kết quả là:
+```
+13
+```
+Điều quan trọng là bạn phải hiểu được phạm vi của các biến được sử dụng trong các hàm.
+Hãy nhìn vào một ví dụ.
+```
+# Khai báo, khởi tạo 2 biến x và y
+x = 0
+y = 0
+
+# Khai báo hàm incr
+def incr(x):
+    y = x + 1
+    return y
+# Thử sử dụng hàm vừa tạo
+print(incr(5))
+# In ra giá trị của biến x, y
+print(x, y)
+```
+Chạy chương trình, chúng ta có kết quả:
+```
+6
+0 0
+```
+Điều này xảy ra vì các biến được gán trong một hàm, bao gồm các đối số được gọi là các biến cục bộ của hàm (local variables).
+Các biến được định nghĩa ở cấp cao nhất được gọi là biến toàn cục (global variables).
+Nếu bạn thay đổi giá trị của x và y bên trong hàm incr thì nó cũng sẽ không ảnh hưởng những giá trị của biến toàn cục, x và y.
+Nhưng, bên trong hàm, chúng ta lại có thể sử dụng các giá trị của các biến toàn cục:
+```
+# Khai báo một biến toàn cục
+pi = 3.14
+# Tạo một hàm tính chu vi hình tròn
+def area(r):
+    # Sử dụng biến toàn cục trong hàm
+    return pi * r * r
+# Thử sử dụng hàm vừa tạo để tính toán
+print(area(5))
+```
+Chạy chương trình, ta có kết quả:
+```
+78.5
+```
+Khi Python thấy việc sử dụng một biến không được định nghĩa trong phạm vi cục bộ, nó sẽ cố gắng tìm một biến toàn cục có tên đó.
+Nếu có, nó có thể sử dụng
+Tuy nhiên, bạn phải khai báo rõ ràng một biến là global để có thể sửa đổi nó.
+```
+# Khai báo một biến toàn cục
+numcalls = 0
+# Tạo một hàm tính bình phương
+# Sử dụng biến toàn cục để đếm số lần hàm
+# vừa tạo được sử dụng
+def square(x):
+    global numcalls
+    numcalls = numcalls + 1
+    return x * x
+print(square(2))
+print(square(5))
+print(numcalls)
+```
+Như bạn đã thấy, chúng ta thực thi 2 lần hàm square. Vậy theo như hàm vừa tạo, chúng ta kỳ vọng numcalls lúc này sẽ có giá trị là 2 đúng không?
+Chạy chương trình, ta có kết quả:
+```
+25
+2
+```
