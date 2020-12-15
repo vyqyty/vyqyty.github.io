@@ -259,3 +259,55 @@ name = "hello"
 print("name")
 ```
 
+## 5. Tìm hiểu về Hàm trong lập trình Python
+Hàm - hay còn gọi là function.
+Trong Python, có nhiều hàm dựng sẵn (built-in functions). Ví dụ, print một hàm được tích hợp sẵn được sử dụng phổ biến nhất.
+```
+print('hello')
+print('hello', 1, 2, 3)
+```
+Chạy chương trình, ta có kết quả:
+```
+hello
+hello 1 2 3
+```
+Chúng ta cũng đã thấy hàm len ở phần trước. Hàm len được sử dụng để tính chiều dài của một chuỗi, list hoặc các tập hợp khác.
+```
+print(len("hello"))
+print(len(['a', 'b', 'c']))
+```
+Chạy chương trình, ta nhận được kết quả:
+```
+5
+3
+```
+Một điều quan trọng về Python là nó không cho phép các hoạt động trên các kiểu dữ liệu không tương thích.
+Ví dụ, bạn làm như thế này:
+```
+print(5 + "2")
+```
+Bạn sẽ nhận được thông báo lỗi tương tự thế này:
+```
+Traceback (most recent call last):
+File "c:/Users/Admin/Desktop/Hello.py", line1, in <module>
+print(5 + "2")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+```
+Đó là bởi vì không thể cộng số với chuỗi.
+Chúng ta cần chuyển đổi 5 thành một chuỗi hoặc "2" thành một số.
+Để làm điều này, chúng ta có hàm dựng sẵn là int sẽ chuyển đổi một chuỗi thành một số và hàm str sẽ chuyển đổi bất kỳ giá trị nào thành một chuỗi.
+Ví dụ như thế này:
+```
+int('2')
+```
+Bây giờ, chúng ta làm lại ví dụ ở bên trên:
+```
+print(5 + int('2'))
+print(str(5) + "2")
+```
+Khi chạy chương trình, ta có kết quả:
+```
+7
+52
+```
+Vì cộng chuỗi với chuỗi nên chúng ta có chuỗi 52
