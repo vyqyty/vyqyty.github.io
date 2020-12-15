@@ -561,5 +561,5 @@ Kết quả:
 Fri Aug 28 08:26:36 2020
 ```
 Hàm asctime trong module time trả về thời gian hiện tại của hệ thống như một chuỗi.
-Còn có rất nhiều Module thú vị trong thư viện tiêu chuẩn của Python (Python Standard Library).
+Còn có rất nhiều Module thú vị trong thư viện tiêu chuẩn của Python (https://docs.python.org/3/library/index.html).
 
