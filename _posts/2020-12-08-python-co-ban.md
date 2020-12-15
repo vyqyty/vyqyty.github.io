@@ -501,3 +501,46 @@ False
 False
 True
 ```
+
+## 8. Tìm hiểu về List trong Python
+
+List là một trong những loại dữ liệu tuyệt vời trong Python.
+Bây giờ chúng ta sẽ tìm hiểu kỹ hơn một chút về List. Kiến thức cơ bản về List là bắt buộc để có thể sử dụng Python.
+Đây là một list chứa các giá trị number:
+```
+x = [1, 2, 3]
+```
+Đây là một list chứa các giá trị string:
+```
+x = ["hello", "world"]
+```
+List cũng có thể chứa các giá trị không đồng nhất. Dưới đây là List chứa số, chuỗi và cả List khác:
+```
+x = [1, 2, "hello", "world", ["another", "list"]]
+```
+Hàm len cũng có thể làm việc được với List:
+```
+x = [1, 2, 3]
+print(len(x))
+```
+Kết quả:
+```
+3
+```
+Toán tử [] được sử dụng để truy cập một giá trị nhất định trong list.
+```
+# Khai báo một list
+x = [1, 2, 3]
+# In ra phần tử thứ 2
+print(x[1])
+# Cập nhật phần tử thứ 2
+x[1] = 4
+# In ra phần tử thứ 2
+print(x[1])
+```
+Kết quả:
+```
+2
+4
+```
+Có kết quả như trên bởi vì: Phần tử đầu tiên có chỉ số (index) là 0, phần tử thứ hai có chỉ số là 1, ...
