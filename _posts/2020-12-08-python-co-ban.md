@@ -544,3 +544,22 @@ Kết quả:
 4
 ```
 Có kết quả như trên bởi vì: Phần tử đầu tiên có chỉ số (index) là 0, phần tử thứ hai có chỉ số là 1, ...
+
+## 9. Tìm hiểu về Modules trong Python
+
+Các Module là các thư viện trong Python. Python chứa rất nhiều thư viện tiêu chuẩn.
+Một module có thể được nhập bằng cách sử dụng câu lệnh import
+Hãy xem cách nhập module time để sử dụng, như bên dưới:
+```
+# Import module time
+import time
+# In ra thời gian ở dạng chuỗi
+print(time.asctime())
+```
+Kết quả:
+```
+Fri Aug 28 08:26:36 2020
+```
+Hàm asctime trong module time trả về thời gian hiện tại của hệ thống như một chuỗi.
+Còn có rất nhiều Module thú vị trong thư viện tiêu chuẩn của Python (Python Standard Library).
+
