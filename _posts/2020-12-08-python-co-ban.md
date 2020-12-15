@@ -147,7 +147,7 @@ b
 ```
 Để khai báo một List trong Python, chúng ta sử dụng ngoặc vuông [].
 
-### 3.5 Tuple
+### 3.5. Tuple
 
 Python cũng có một kiểu dữ liệu khác gọi là tuple để biểu diễn các bản ghi với chiều rộng cố định.
 Tuples hành xử giống như List, nhưng chúng là bất biến.
@@ -197,7 +197,7 @@ hello
 hello@hello
 ```
 
-### 3.6 Set
+### 3.7. Set
 
 Thêm nữa, Python cũng có một kiểu dữ liệu gọi là set. Một set là một tập hợp các phần tử không có thứ tự và duy nhất.
 ```
@@ -211,7 +211,7 @@ Chạy chương trình, chúng ta nhận được kết quả:
 {1, 2, 3}
 ```
 
-### 3.7 Boolean
+### 3.8. Boolean
 
 Python có kiểu boolean. Nó có hai giá trị đặc biệt True và False để đại diện cho Đúng và Sai.
 ```
