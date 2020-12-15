@@ -25,7 +25,8 @@ Ví dụ:
 >>> 4 + 2
 6
 ```
-# 2. Thử chạy tập lệnh Python
+## 2. Thử chạy tập lệnh Python
+
 Python cung cấp 1 IDE cho bạn. Nếu test các bạn có thể dùng luôn IDE này. ngoài ra các bạn có thể dùng các IDE khác có hỗ trợ Python như Pycharm, Visual Code, ... để viết code nhanh hơn. Bản thân mình thì đang dùng Visual Code. :)
 ```
 print("hello, world!")
@@ -35,8 +36,10 @@ Và đây là kết quả ( * trên command prompt):
 $ python hello.py
 hello, world!
 ```
-# 3. Các kiểu dữ liệu phổ biến trong Python
+## 3. Các kiểu dữ liệu phổ biến trong Python
+
 **Ngôn ngữ lập trình Python** có hỗ trợ cho tất cả các **kiểu dữ liệu cơ bản** và cũng có kiểu dữ liệu kết hợp rất mạnh.
+
 ### 3.1. Số nguyên: integers
 ```
 print(1 + 2)
@@ -53,6 +56,7 @@ print(2**1000)
 Kết quả là một con số khá lớn :)
 
 ### 3.2. Số dấu phẩy động: float
+
 ```
 print(1.2 + 2.3)
 ```
@@ -60,7 +64,9 @@ Chạy chương trình ta có kết quả:
 ```
 3.5
 ```
+
 ### 3.3. Chuỗi: String
+
 ```
 print("hello world")
 print('hello world')
@@ -118,7 +124,9 @@ a
 b
 c
 ```
+
 ### 3.4. List
+
 Python có kiểu dữ liệu dạng danh sách (được gọi là List). 
 List là một trong những loại dữ liệu hữu ích nhất của Python.
 ```
@@ -138,7 +146,9 @@ Chạy chương trình trên, ta nhận được kết quả:
 b
 ```
 Để khai báo một List trong Python, chúng ta sử dụng ngoặc vuông [].
+
 ### 3.5 Tuple
+
 Python cũng có một kiểu dữ liệu khác gọi là tuple để biểu diễn các bản ghi với chiều rộng cố định.
 Tuples hành xử giống như List, nhưng chúng là bất biến.
 ```
@@ -169,7 +179,9 @@ Chạy chương trình ta nhận được kết quả:
 ```
 255 255 0
 ```
+
 ### 3.6. Dictionary
+
 Python có kiểu dữ liệu dictionary để biểu diễn dữ liệu theo các cặp name : value
 ```
 # Khai báo một dictionary
@@ -184,7 +196,9 @@ Chạy chương trình, chúng ta nhận được kết quả là:
 hello
 hello@hello
 ```
+
 ### 3.6 Set
+
 Thêm nữa, Python cũng có một kiểu dữ liệu gọi là set. Một set là một tập hợp các phần tử không có thứ tự và duy nhất.
 ```
 # Khai báo một set
@@ -196,7 +210,9 @@ Chạy chương trình, chúng ta nhận được kết quả:
 ```
 {1, 2, 3}
 ```
+
 ### 3.7 Boolean
+
 Python có kiểu boolean. Nó có hai giá trị đặc biệt True và False để đại diện cho Đúng và Sai.
 ```
 # Khai báo một biến boolean
