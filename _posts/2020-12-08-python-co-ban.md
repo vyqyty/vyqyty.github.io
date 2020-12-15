@@ -232,3 +232,30 @@ x = None
 print(x)
 ```
 Bây giờ bạn đã biết hầu hết các cấu trúc dữ liệu phổ biến của Python.
+
+## 4. Tìm hiểu về Biến trong lập trình Python
+
+Bạn chưa được học về biến trong Python nhưng bạn học lập trình Python thì đây là kiến thức căn bản không thể thiếu.
+Bây giờ, chúng ta sẽ xem xét kỹ hơn về biến trong Python.
+Trong Python, biến không có kiểu (hay không cần khai báo kiểu dữ liệu).
+Chúng chỉ là tên giữ chỗ đó và có thể giữ bất kỳ giá trị với bất kỳ kiểu dữ liệu nào, hãy xem ví dụ sau:
+```
+x = 5
+print(x)
+x = 'hello'
+print(x)
+```
+Chạy chương trình, ta nhận được kết quả:
+```
+5
+hello
+```
+Note: Nếu bạn làm như thế trong Java thì lỗi sấp mặt rồi.
+Điều quan trọng là bạn có thể nhận thấy sự khác biệt giữa các biến và chuỗi.
+Thông thường người mới học lập trình sẽ hay bị nhầm lãn.
+Hãy thử xem bạn có thể nhận ra lỗi nào trong ví dụ sau không?
+```
+name = "hello"
+print("name")
+```
+
