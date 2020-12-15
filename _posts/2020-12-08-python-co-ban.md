@@ -440,3 +440,64 @@ Chạy chương trình, ta có kết quả:
 25
 2
 ```
+
+## 7. Tìm hiểu về biểu thức điều kiện trong Python
+
+Python cung cấp các toán tử khác nhau để so sánh các giá trị. Kết quả của một so sánh là một giá trị boolean, True hoặc False.
+```
+print(2 < 3)
+print(2 > 3)
+```
+Kết quả:
+```
+True
+False
+```
+Dưới đây là danh sách các toán tử điều kiện phổ biến nhất.
+
+* == so sánh bằng
+* != không bằng
+* < nhỏ hơn
+* > lớn hơn
+* <= nhỏ hơn hoặc bằng
+* >= lớn hơn hoặc bằng
+
+Bạn thậm chí có thể kết hợp những loại toán tử này:
+```
+x = 5
+print(2 < x < 10)
+print(2 < 3 < 4 < 5 < 6)
+```
+Kết quả:
+```
+True
+True
+```
+Các toán tử có điều kiện làm việc ngay cả trên các chuỗi - So sánh dựa theo thứ tự trong bảng chữ cái.
+```
+print("python" > "perl")
+print("python" > "java")
+```
+Kết quả:
+```
+True
+True
+```
+Thêm nữa, Python có một vài toán tử logic để kết hợp các giá trị boolean.
+
+* a and b là true nếu cả a và b đều đúng
+* a or b là true nếu ít nhất a hoặc b đúng. a đúng sẽ không kiểm tra b
+* not a là true nếu a là sai
+```
+print(True and True)
+print(True and False)
+print(2 < 3 and 5 < 4)
+print(2 < 3 or 5 < 4)
+```
+Kết quả:
+```
+True
+False
+False
+True
+```
