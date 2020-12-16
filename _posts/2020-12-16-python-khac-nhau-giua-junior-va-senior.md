@@ -1,6 +1,6 @@
 ---
 title: Python - Sự khác nhau giữa Junior và Senior
-date: 2020-12-08
+date: 2020-12-16
 categories: [Python]
 tags: []
 math: true
