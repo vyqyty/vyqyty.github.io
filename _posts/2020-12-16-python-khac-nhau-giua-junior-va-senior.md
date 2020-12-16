@@ -7,7 +7,7 @@ math: true
 ---
 ## 1. Lặp các phần tử trong list đồng thời lấy index
 
-** Junior **
+**Junior**
 ```
 x = ['a', 'b', 'c']
 counter = 0
@@ -15,7 +15,7 @@ for e in x:
     print('%d: %s' % (counter, e))
     counter += 1
 ```
-** Senior **
+**Senior**
 ```
 x = ['a', 'b', 'c']
 for i, e in enumerate(x):
@@ -30,19 +30,19 @@ Output:
 
 ## 2. Lặp các phần tử trong tử điển đồng thời lấy key và value
 
-** junior **
+**Junior**
 ```
 d = {'a': 10, 'b': 20, 'c': 30}
 for k in d.keys():
     print('%s: %d' % (k, d[k]))
 ```
-** senior 1 **
+**Senior 1**
 ```
 d = {'a': 10, 'b': 20, 'c': 30}
 for k, v in d.items():
     print('%s: %d' % (k, v))
 ```
-** senior 2 **
+**Senior 2**
 ```
 d = {'a': 10, 'b': 20, 'c': 30}
 for i, (k, v) in enumerate(d.items()):
@@ -66,7 +66,7 @@ a: 10
 ```
 
 # 3. Lặp từng cặp phần tử trong 2 danh sách (dùng zip)
-** Junior **
+**Junior**
 ```
 m = [0, 1, 2]
 n = ['a', 'b', 'c']
@@ -78,7 +78,7 @@ for i in range(len(m)):
 
 print('\n')
 ``` 
-** senior **
+**Senior**
 ```
 m = [0, 1, 2]
 n = ['a', 'b', 'c']
@@ -93,7 +93,7 @@ Output:
 2. 2 <-> c
 ```
 ## 4. Thay đổi mỗi phần tử trong danh sách (dùng list comprehensive)
-** junior **
+**Junior**
 ```
 p = [1, 2, 3]
 for k in range(len(p)):
@@ -102,7 +102,7 @@ print(p)
     
 print('\n')
 ```
-** senior (list comprehensive)**
+**Senior (list comprehensive)**
 ```
 p = [1, 2, 3]
 p = [e*2 for e in p]
@@ -114,7 +114,7 @@ Output:
 ```
 
 ## 5. Lọc phần tử trong danh sách (dùng list comprehensive)
-** junior**
+**Junior**
 ```
 list_input = [1, 2, 3, 4]
 list_output = []
@@ -125,7 +125,7 @@ print(list_output)
     
 print('\n')
 ```
-** senior (list comprehensive)**
+**Senior (list comprehensive)**
 ```
 list_input = [1, 2, 3, 4]
 list_output = [e for e in list_input if e % 2 == 0]
@@ -137,7 +137,7 @@ Output:
 ```
 
 ## 6. "Ternary" trong Python
-** junior**
+**Junior**
 ```
 x = 10
 if x > 5:
@@ -148,7 +148,7 @@ print(x)
 
 print('\n')
 ```
-** senior (ternary)**
+**Senior (ternary)**
 ```
 x = 10
 x = 5 if x > 5 else x
@@ -164,7 +164,7 @@ Output:
 def foo(key, value):
     print('key: %s | value: %s' % (str(key), str(value)))
 ```
-** junior**
+**Junior**
 ```
 foo(1, 'a')
 foo(2, 'b')
@@ -174,13 +174,13 @@ foo(5, 'e')
 foo(6, 'f')
 foo(7, 'g')
 ```
-** senior 1**
+**Senior 1**
 ```
 params = [(1, 'a'), (2, 'b'), (3, 'c'), (4, 'd'), (5, 'e'), (6, 'f'), (7, 'g')]
 for p in params:
     foo(*p)         # params passing by list / tuple: *p
 ``` 
-** senior 2**
+**Senior 2**
 ```
 params = [
     {'key': 1, 'value': 'a'},
@@ -216,8 +216,8 @@ def bar(key, value):
 func = 'bar'    # 'foo' or 'bar'
 params = [(1, 'a'), (2, 'b'), (3, 'c'), (4, 'd'), (5, 'e'), (6, 'f'), (7, 'g')]
 ```
-** junior: does not know how to call "func" function multiple times with the given params. :((.**
-** senior: just uses "eval" to get function pointer and call it with the given params. :)).**
+**Junior: does not know how to call "func" function multiple times with the given params. :((.**
+**Senior: just uses "eval" to get function pointer and call it with the given params. :)).**
 ```
 func_pointer = eval(func)
 for p in params:
@@ -235,7 +235,7 @@ bar key: 7 | bar value: g
 ```
 
 ## 9. Kiểm tra động thuộc tính trong đối tượng (dùng hasattr, getattr, setattr)
-** senior says:**
+**Senior says:**
 ```
 class Senior():
     def __init__(self):
@@ -253,14 +253,14 @@ s = Senior()
 s.set_dynamic_field('name', 'minhng.info')
 print(s.name)
 ```
-** junior: what the f*ck?? I'm done.**
+**Junior: what the f*ck?? I'm done.**
 Output:
+
+## 10. Dùng hàm dựng sẵn trong Python (min, max, sum, sorted, …)
 ```
-minhng.info
-10. Dùng hàm dựng sẵn trong Python (min, max, sum, sorted, …)
 x = [4, 3, 6, 8, 10, 72]
 ```
-** junior: it's easy. Let me calculate sum, min, max by using "for" loop :D.**
+**Junior: it's easy. Let me calculate sum, min, max by using "for" loop :D.**
 ```
 sum_val = 0
 for v in x:
@@ -278,16 +278,17 @@ print('sum: %d' % sum_val)
 print('min: %d' % min_val)
 print('max: %d' % max_val)
 ```
-** senior: what are you doing? See it.**
+**Senior: what are you doing? See it.**
 ```
 print('sum: %d' % sum(x))
 print('min: %d' % min(x))
 print('max: %d' % max(x))
 ```
-** junior: ...**
+**Junior: ...**
 Output:
 ```
 sum: 103
 min: 3
 max: 72
 ```
+Nguồn minhng.info
