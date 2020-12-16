@@ -48,7 +48,7 @@ d = {'a': 10, 'b': 20, 'c': 30}
 for i, (k, v) in enumerate(d.items()):
     print('%d. %s: %d' % (i, k, v))
 ```
-Output:
+**Output:**
 ```
 c: 30
 b: 20
@@ -66,6 +66,7 @@ a: 10
 ```
 
 # 3. Lặp từng cặp phần tử trong 2 danh sách (dùng zip)
+
 **Junior**
 ```
 m = [0, 1, 2]
@@ -86,13 +87,14 @@ n = ['a', 'b', 'c']
 for i, (mx, nx) in enumerate(zip(m, n)):
     print('%d. %d <-> %s' % (i, mx, nx))
 ```
-Output:
+**Output:**
 ```
 0. 0 <-> a
 1. 1 <-> b
 2. 2 <-> c
 ```
 ## 4. Thay đổi mỗi phần tử trong danh sách (dùng list comprehensive)
+
 **Junior**
 ```
 p = [1, 2, 3]
@@ -108,12 +110,13 @@ p = [1, 2, 3]
 p = [e*2 for e in p]
 print(p)
 ```
-Output:
+**Output:**
 ```
 [2, 4, 6]
 ```
 
 ## 5. Lọc phần tử trong danh sách (dùng list comprehensive)
+
 **Junior**
 ```
 list_input = [1, 2, 3, 4]
@@ -137,6 +140,7 @@ Output:
 ```
 
 ## 6. "Ternary" trong Python
+
 **Junior**
 ```
 x = 10
@@ -154,12 +158,13 @@ x = 10
 x = 5 if x > 5 else x
 print(x)
 ```
-Output:
+**Output:**
 ```
 5
 ```
 
 ## 7. Gọi hàm với tham số dạng danh sách (list) hoặc từ điển (dict)
+
 ```
 def foo(key, value):
     print('key: %s | value: %s' % (str(key), str(value)))
@@ -194,7 +199,7 @@ params = [
 for p in params:
     foo(**p)        # params passing by dictionary: **p
 ```
-Output:
+**Output:**
 ```
 key: 1 | value: a
 key: 2 | value: b
@@ -206,6 +211,7 @@ key: 7 | value: g
 ```
 
 ## 8. Gọi hàm động trong Python
+
 ```
 def foo(key, value):
     print('foo key: %s | foo value: %s' % (str(key), str(value)))
@@ -216,14 +222,17 @@ def bar(key, value):
 func = 'bar'    # 'foo' or 'bar'
 params = [(1, 'a'), (2, 'b'), (3, 'c'), (4, 'd'), (5, 'e'), (6, 'f'), (7, 'g')]
 ```
+
 **Junior: does not know how to call "func" function multiple times with the given params. :((.**
+
 **Senior: just uses "eval" to get function pointer and call it with the given params. :)).**
+
 ```
 func_pointer = eval(func)
 for p in params:
     func_pointer(*p)
 ```
-Output:
+**Output:**
 ```
 bar key: 1 | bar value: a
 bar key: 2 | bar value: b
@@ -235,6 +244,7 @@ bar key: 7 | bar value: g
 ```
 
 ## 9. Kiểm tra động thuộc tính trong đối tượng (dùng hasattr, getattr, setattr)
+
 **Senior says:**
 ```
 class Senior():
@@ -250,13 +260,19 @@ class Senior():
         return getattr(self, field)
 
 s = Senior()
-s.set_dynamic_field('name', 'minhng.info')
+s.set_dynamic_field('name', 'HELLO')
 print(s.name)
 ```
+
 **Junior: what the f*ck?? I'm done.**
-Output:
+
+**Output:**
+```
+HELLO
+```
 
 ## 10. Dùng hàm dựng sẵn trong Python (min, max, sum, sorted, …)
+
 ```
 x = [4, 3, 6, 8, 10, 72]
 ```
@@ -285,7 +301,9 @@ print('min: %d' % min(x))
 print('max: %d' % max(x))
 ```
 **Junior: ...**
-Output:
+
+**Output:**
+
 ```
 sum: 103
 min: 3
