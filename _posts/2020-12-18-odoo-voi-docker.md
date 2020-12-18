@@ -67,7 +67,7 @@ Nguồn từ Trobz <https://academy.trobz.com/blog/odoo-blog-5/post/run-odoo-13-
 
 ## Mình thì đơn giản hơn :) Tự tạo Dockerfile để buile docker
 
-Dưới đây là link để xay dựng odoo10 với Docker
+Dưới đây là link để dựng odoo10 với Docker
 
 <https://github.com/dautienthuy/odoo-10-docker>
 
