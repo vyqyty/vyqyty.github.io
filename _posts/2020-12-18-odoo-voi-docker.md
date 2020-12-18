@@ -63,4 +63,4 @@ math: true
 * 13.0: tên git branch
 * o13-web: tên container trong docker được định nghĩa ở đây
 
-Nguồn từ Trobz [](https://academy.trobz.com/blog/odoo-blog-5/post/run-odoo-13-voi-docker-41)
+Nguồn từ Trobz (https://academy.trobz.com/blog/odoo-blog-5/post/run-odoo-13-voi-docker-41)
