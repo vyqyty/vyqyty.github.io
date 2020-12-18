@@ -65,13 +65,13 @@ math: true
 
 Nguồn từ Trobz (https://academy.trobz.com/blog/odoo-blog-5/post/run-odoo-13-voi-docker-41)
 
-## Tự tạo Dockerfile để buile docker
+## Mình thì đơn giản hơn :) Tự tạo Dockerfile để buile docker
 
 Dưới đây là link để xay dựng odoo10 với Docker
 
-[](https://github.com/dautienthuy/odoo-10-docker)
+(https://github.com/dautienthuy/odoo-10-docker)
 
-Để chạy docker
+Để chạy docker all
 
 * docker-compose up -d 
  
@@ -81,6 +81,16 @@ Dưới đây là link để xay dựng odoo10 với Docker
 
 Để chạy dưới dạng bash để xem log
 
+Chạy db trước:
+
+* docker start odoo10_db
+
+Chạy odoo
+
 * docker-compose up -d && docker attach odoo10_web
 
-* Thêm cáo module vào **/mnt/extra-addons**
+Note:
+
+* Thêm các module vào **/mnt/extra-addons**
+* Có thể sửa file config trong file odoo.conf
+
