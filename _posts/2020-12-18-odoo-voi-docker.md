@@ -5,8 +5,6 @@ categories: [Other]
 tags: []
 math: true
 ---
-# Odoo với docker
-
 ## Chuẩn bị
 
 * Server đã được cài đặt Ubuntu (server/desktop phiên bản 18.04 - link download)
