@@ -93,4 +93,3 @@ Note:
 
 * Thêm các module vào **/mnt/extra-addons**
 * Có thể sửa file config trong file odoo.conf
-
