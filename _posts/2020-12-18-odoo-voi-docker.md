@@ -30,7 +30,7 @@ math: true
 
 * sudo systemctl status docker
 
-https://raw.githubusercontent.com/vyqyty/vyqyty.github.io/master/assets/img/uploads/docker1.png
+![](https://raw.githubusercontent.com/vyqyty/vyqyty.github.io/master/assets/img/uploads/docker1.png)
 
 Cài đặt docker-compose (phiên bản mới nhất ở thời điểm viêt bài 1.25.0-rc2 released on Aug 7)
 
