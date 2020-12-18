@@ -8,7 +8,7 @@ math: true
 ## Chuẩn bị
 
 * Server đã được cài đặt Ubuntu (server/desktop phiên bản 18.04 - link download)
-* File docker-compose.yml (tham khảo ở https://github.com/trobz/docker-odoo-run.git)
+* File docker-compose.yml (tham khảo ở <https://github.com/trobz/docker-odoo-run.git>)
 
 ## Tiến hành cài đặt bằng terminal.
 
@@ -37,7 +37,7 @@ math: true
 
 ## Khởi chạy Odoo
 
-* git clone https://github.com/trobz/docker-odoo-run.git -b 13.0
+* git clone <https://github.com/trobz/docker-odoo-run.git> -b 13.0
 * cd docker-odoo-run
 * sudo docker-compose up -d
 * sudo chmod 777 -R odoo odoo-web-data
@@ -63,13 +63,13 @@ math: true
 * 13.0: tên git branch
 * o13-web: tên container trong docker được định nghĩa ở đây
 
-Nguồn từ Trobz (https://academy.trobz.com/blog/odoo-blog-5/post/run-odoo-13-voi-docker-41)
+Nguồn từ Trobz <https://academy.trobz.com/blog/odoo-blog-5/post/run-odoo-13-voi-docker-41>
 
 ## Mình thì đơn giản hơn :) Tự tạo Dockerfile để buile docker
 
 Dưới đây là link để xay dựng odoo10 với Docker
 
-(https://github.com/dautienthuy/odoo-10-docker)
+<https://github.com/dautienthuy/odoo-10-docker>
 
 Để chạy docker all
 
