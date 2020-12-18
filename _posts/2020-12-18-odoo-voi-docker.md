@@ -64,3 +64,23 @@ math: true
 * o13-web: tên container trong docker được định nghĩa ở đây
 
 Nguồn từ Trobz (https://academy.trobz.com/blog/odoo-blog-5/post/run-odoo-13-voi-docker-41)
+
+## Tự tạo Dockerfile để buile docker
+
+Dưới đây là link để xay dựng odoo10 với Docker
+
+[](https://github.com/dautienthuy/odoo-10-docker)
+
+Để chạy docker
+
+* docker-compose up -d 
+ 
+Để kiểm tra 
+
+* docker-compsoe ps
+
+Để chạy dưới dạng bash để xem log
+
+* docker-compose up -d && docker attach odoo10_web
+
+* Thêm cáo module vào **/mnt/extra-addons**
