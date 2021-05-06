@@ -23,7 +23,7 @@ math: true
 * curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 * sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
 * sudo apt install docker-ce -y
-* hay sudo snap install docker
+* nhanh nhất là: sudo apt-get install docker.io
 ```
 ## Kiểm tra thông tin docker đã cài thành công
 ```
