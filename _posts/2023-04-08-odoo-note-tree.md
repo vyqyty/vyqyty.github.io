@@ -10,23 +10,13 @@ post_views_count:
 categories: [Odoo]
 tags: []
 ---
-
 1. Bắt đầu với hệ thống Odoo
-    
 2. Công cụ cá nhân
-
 3. Vận hành
-
 4. Quản lý Bán hàng
-
 5. Dịch vụ
-
 6. Websites
-
 7. Marketing
-
 8. Chuỗi cung ứng
-
 9. Tài chính
-
 10. Quản lý nhân sự
