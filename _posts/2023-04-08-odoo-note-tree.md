@@ -46,6 +46,27 @@ VIII. Chuỗi cung ứng
 
 IX. Tài chính
 
+  1. Kế toán Tài chính.
+      1. Tổng quan về Ứng dụng Kế toán.
+          1. Các nguyên tắc quan trọng trong Phần mềm Kế toán Tài chính Odoo
+          2. Các bước thiết lập hệ thống Kế toán cơ bản trước khi sử dụng
+          3. Thiết lập và sử dụng hệ thống Tài khoản kế toán
+          4. Tạo bút toán kế toán
+      2. Kế toán phải thu
+      3. Kế toán phải trả
+      4. Thuế
+      5. Ngân hàng & Tiền mặt
+      6.Đa tiền tệ
+      7. Quản lý tài sản
+      8. Kế toán Lương
+      9. Kế toán Kho
+      10. Kế toán cho Sản xuất
+      11. Báo cáo Kế toán
+      12. Kế toán Quản trị
+      13. Kế toán bản địa
+  3. Quản lý Chi tiêu
+  4. Tạm ứng nhân viên
+
 X. Quản lý nhân sự
 
 Nguồn từ https://viindoo.com/ đã được edit của vyqyty
