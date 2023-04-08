@@ -48,4 +48,4 @@ IX. Tài chính
 
 X. Quản lý nhân sự
 
-nguông từ https://viindoo.com/ đã được edit của vyqyty
+Nguồn từ https://viindoo.com/ đã được edit của vyqyty
