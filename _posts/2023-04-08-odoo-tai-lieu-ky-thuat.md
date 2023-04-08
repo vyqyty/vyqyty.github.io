@@ -1,6 +1,6 @@
 ---
 id: 1002
-title: Tài liệu hướng dẫn sử dụng
+title: Odoo - Tài liệu kỹ thuật
 date: 2023-04-08
 author: Vyqyty
 layout: post
