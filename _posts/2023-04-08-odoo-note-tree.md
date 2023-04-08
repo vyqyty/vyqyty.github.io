@@ -1,9 +1,12 @@
 ---
-title: Demo
-date: 2023-04-08 11:33:00 +0800
+id: 17
+title: Odoo
+date: 20123-09-27T02:35:13+07:00
+author: Ime Share
+layout: post
+permalink: /xoa-cac-muc-menu-tren-wordpress/
+post_views_count:
+  - "209"
 categories: [Odoo]
-tags: []
-math: true
+tags: [Wordpress]
 ---
-
-Demo
