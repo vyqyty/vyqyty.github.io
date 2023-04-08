@@ -1,7 +1,7 @@
 ---
 title: Odoo với docker
 date: 2020-12-18
-categories: [Other]
+categories: [Odoo]
 tags: []
 math: true
 ---
