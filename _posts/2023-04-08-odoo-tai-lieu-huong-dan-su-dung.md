@@ -4,7 +4,7 @@ title: Tài liệu hướng dẫn sử dụng
 date: 2023-04-08
 author: Vyqyty
 layout: post
-permalink: /odoo-note-tree/
+permalink: /odoo-tai-lieu-huong-dan-su-dung/
 post_views_count:
   - "1000"
 categories: [Odoo]
