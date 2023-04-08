@@ -56,7 +56,7 @@ IX. Tài chính
       3. Kế toán phải trả
       4. Thuế
       5. Ngân hàng & Tiền mặt
-      6.Đa tiền tệ
+      6. Đa tiền tệ
       7. Quản lý tài sản
       8. Kế toán Lương
       9. Kế toán Kho
