@@ -91,7 +91,7 @@ Chạy odoo
 ```
 * docker-compose up -d && docker attach odoo10_web
 ```
-Note:
+NOTE:
 
 * Thêm các module vào **/mnt/extra-addons**
 * Có thể sửa file config trong file /etc/odoo.conf
