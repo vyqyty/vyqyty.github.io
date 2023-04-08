@@ -1,12 +1,12 @@
 ---
-id: 17
+id: 1000
 title: Odoo
-date: 20123-09-27T02:35:13+07:00
-author: Ime Share
+date: 2023-04-08
+author: Vyqyty
 layout: post
-permalink: /xoa-cac-muc-menu-tren-wordpress/
+permalink: /odoo-note-tree/
 post_views_count:
-  - "209"
+  - "1000"
 categories: [Odoo]
-tags: [Wordpress]
+tags: []
 ---
