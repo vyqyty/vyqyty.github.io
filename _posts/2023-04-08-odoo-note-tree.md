@@ -11,22 +11,22 @@ categories: [Odoo]
 tags: []
 ---
 
-I. Bắt đầu với hệ thống Odoo
+1. Bắt đầu với hệ thống Odoo
     
-II. Công cụ cá nhân
+2. Công cụ cá nhân
 
-III. Vận hành
+3. Vận hành
 
-IV. Quản lý Bán hàng
+4. Quản lý Bán hàng
 
-V. Dịch vụ
+5. Dịch vụ
 
-VI. Websites
+6. Websites
 
-VII. Marketing
+7. Marketing
 
-VIII. Chuỗi cung ứng
+8. Chuỗi cung ứng
 
-IX. Tài chính
+9. Tài chính
 
-X. Quản lý nhân sự
+10. Quản lý nhân sự
