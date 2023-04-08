@@ -48,7 +48,7 @@ IX. Tài chính
 
   1. Kế toán Tài chính.
       1. Tổng quan về Ứng dụng Kế toán.
-          1. Các nguyên tắc quan trọng trong Phần mềm Kế toán Tài chính Odoo
+          1. Các nguyên tắc quan trọng trong Phần mềm Kế toán Tài chính Odoo ( https://vyqyty.github.io/odoo-911/ )
           2. Các bước thiết lập hệ thống Kế toán cơ bản trước khi sử dụng
           3. Thiết lập và sử dụng hệ thống Tài khoản kế toán
           4. Tạo bút toán kế toán
