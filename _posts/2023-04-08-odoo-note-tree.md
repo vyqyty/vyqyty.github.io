@@ -18,16 +18,16 @@ I. Bắt đầu với hệ thống Odoo
         3. Các khái niệm, thuật ngữ và đối tượng trong hệ thống Odoo
         4. Cài đặt Ứng dụng và Module
         5. Hướng dẫn cài đặt và sử dụng đa ngôn ngữ
-        6. Cách thiết lập máy chủ mail để Gửi/Nhận email trong Viindoo
+        6. Cách thiết lập máy chủ mail để Gửi/Nhận email trong Odoo
         7. Kích hoạt chế độ nhà phát triển (chế độ debug)
   2. Các thiết lập cho công ty
   3. Các thiết lập cho người dùng
-  4. Sản phẩm trong hệ thống Viindoo
+  4. Sản phẩm trong hệ thống Odoo
   5. Hướng dẫn nhập xuất dữ liệu hàng loạt
   6. Giao diện và Báo cáo
   7. Cách sử dụng bộ lọc, nhóm và tìm kiếm
-  8. Trao đổi và làm việc cộng tác trong Viindoo
-  9. Cách thiết lập Mẫu Email trong Viindoo
+  8. Trao đổi và làm việc cộng tác trong Odoo
+  9. Cách thiết lập Mẫu Email trong Odoo
   10. Tích hợp các ứng dụng ngoài
 
 II. Công cụ cá nhân
