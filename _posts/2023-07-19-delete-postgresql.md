@@ -5,12 +5,12 @@ categories: [SQL]
 tags: []
 math: true
 ---
-Hiện tất cả các vấn đề dữ liệu lớn với postgresql đều gặm vấn đề với delete row
-Có 1 bài mà mình thấy rất hay để giải quyết vấn đề này.
+** Hiện tất cả các vấn đề dữ liệu lớn với postgresql đều gặm vấn đề với delete row
+** Có 1 bài mà mình thấy rất hay để giải quyết vấn đề này.
 
 https://dba.stackexchange.com/questions/37034/very-slow-delete-in-postgresql-workaround
 
-Mình sẽ copy nguyên sang để tiện theo dõi khi gặp lại vấn đề.
+** Mình sẽ copy nguyên sang để tiện theo dõi khi gặp lại vấn đề.
 
 The easiest method to solve the problem is to query detailed timing from the PostgreSQL: EXPLAIN. For this you need to find at minimum a single query that does complete but takes longer than expected. Let's say that the slow query would look like
 
