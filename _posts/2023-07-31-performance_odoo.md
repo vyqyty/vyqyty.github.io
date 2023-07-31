@@ -8,6 +8,4 @@ math: true
 
 ## Link
 
-[<img https://github.com/vyqyty/vyqyty.github.io/blob/master/_posts/improving-the-performance-of-odoo-deployments.pdf/>](https://github.com/vyqyty/vyqyty.github.io/blob/master/_posts/improving-the-performance-of-odoo-deployments.pdf)
-
-<https://github.com/vyqyty/vyqyty.github.io/blob/master/_posts/improving-the-performance-of-odoo-deployments.pdf>
+[<img class="alignnone wp-image-784 size-full" src="https://vyqyty.github.io/assets/img/uploads/improving-the-performance-of-odoo-deployments.pdf" alt="" width="399" height="206" srcset="https://vyqyty.github.io/assets/img/uploads/improving-the-performance-of-odoo-deployments.pdf 399w, https://vyqyty.github.io/assets/img/uploads/improving-the-performance-of-odoo-deployments.pdf 300w, https://vyqyty.github.io/assets/img/uploads/improving-the-performance-of-odoo-deployments.pdf 150w" sizes="(max-width: 399px) 100vw, 399px" />](https://vyqyty.github.io/assets/img/uploads/improving-the-performance-of-odoo-deployments.pdf)
