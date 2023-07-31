@@ -10,4 +10,4 @@ Performance Odoo
 
 ## Link
 
-<http://127.0.0.1:4000>
+<https://github.com/vyqyty/vyqyty.github.io/blob/master/_posts/improving-the-performance-of-odoo-deployments.pdf>
