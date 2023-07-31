@@ -8,4 +8,4 @@ math: true
 
 ## Link
 
-[<srcset="https://vyqyty.github.io/assets/img/uploads/improving-the-performance-of-odoo-deployments.pdf/>]
+[1111](https://vyqyty.github.io/assets/img/uploads/improving-the-performance-of-odoo-deployments.pdf)
