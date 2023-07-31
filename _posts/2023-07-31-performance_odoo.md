@@ -8,4 +8,4 @@ math: true
 
 ## Link
 
-<https://github.com/vyqyty/vyqyty.github.io/blob/master/_posts/improving-the-performance-of-odoo-deployments.pdf>
+<https://..../_posts/improving-the-performance-of-odoo-deployments.pdf>
