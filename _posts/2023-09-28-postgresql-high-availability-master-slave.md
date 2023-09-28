@@ -10,4 +10,4 @@ math: true
 
 Source https://elroydev.tech/postgresql-high-availability-master-slave
 
-[Performance Odoo](https://vyqyty.github.io/assets/img/uploads/postgresql_high_availability_master_slave.pdf)
+[Posgresql DB Master - Slave](https://vyqyty.github.io/assets/img/uploads/postgresql_high_availability_master_slave.pdf)
