@@ -1,7 +1,6 @@
-
 ---
 title: SAP ABAP Developer
-date: 2023-12-11 11:33:00 +0700
+date: 2023-07-31 11:33:00 +0800
 categories: [Orther]
 math: true
 ---
