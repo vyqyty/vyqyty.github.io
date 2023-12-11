@@ -6,10 +6,10 @@ categories: [Orther]
 math: true
 ---
 
-## Posgresql DB Master - Slave
+## SAP ABAP Developer
 
 ## Link
 
-Source https://blogs.sap.com/2022/11/14/sap-netweaver-as-abap-developer-edition-installation-pitfalls/
+Source https://blogs.sap.com/2022/11/14/sap-netweaver-as-abap-developer-edition-installation-pitfalls
 
-[SAP NetWeaver AS ABAP Developer Edition Installation Pitfalls + Video Tutorial](https://vyqyty.github.io/assets/img/uploads/tutorial_sap.pdf)
+[SAP ABAP Developer](https://vyqyty.github.io/assets/img/uploads/tutorial_sap.pdf)
