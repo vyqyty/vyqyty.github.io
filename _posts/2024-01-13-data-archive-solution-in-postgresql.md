@@ -1,7 +1,8 @@
 ---
 Data archive solution in PostgreSQL
-date: 2024-05-13 11:33:00 +0800
-categories: [Odoo]
+date: 2024-05-13
+categories: [SQL]
+tags: []
 math: true
 ---
 ## Data archive solution in PostgreSQL
