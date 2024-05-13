@@ -10,6 +10,6 @@ math: true
 
 Source https://medium.com/@pawanpg0963/data-archive-solution-in-postgresql-6f6a96ccda03
 
-[Data archive solution in PostgreSQL](https://medium.com/@pawanpg0963/data-archive-solution-in-postgresql-6f6a96ccda03)
+[Data archive solution in PostgreSQL](https://vyqyty.github.io/assets/img/uploads/data-archive-solution-in-postgresql.pdf)
 
 
